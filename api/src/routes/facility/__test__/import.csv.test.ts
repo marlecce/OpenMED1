@@ -1,7 +1,7 @@
 import { readCSVData, transformData } from '../utils/etl-csv'
 
 it('should read data from the CSV file', async () => {
-  const data = await readCSVData()
+  const data: string[] = await readCSVData()
   expect(data).toBeDefined()
   expect(Array.isArray(data)).toBeTruthy()
   expect(data.length).toBeGreaterThan(0)

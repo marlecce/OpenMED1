@@ -1,29 +1,24 @@
-const Nominatim = require('nominatim-geocoder')
-const geocoder = new Nominatim()
+import geolib from 'geolib'
 
-const geolib = require('geolib')
-
-// set the facility database
-const Cloudant = require('./cloudant')
-const facilityDB = Cloudant.cloudant.db.use(process.env.CLOUDANT_DATABASE)
+import { Facility } from './../../models/facility'
+import { geoServer } from './geoServer'
 
 /**
  * GET /v1/facilities
  * @returns
  */
 async function getAllFacilities() {
-  const data = await facilityDB.list({ include_docs: true })
-  return data.rows.map((row) => row.doc)
+  return Facility.getAllFacilities()
 }
 
 /**
  * GET /v1/facilities?id=
  * @returns
  */
-async function getFacilityById(facilityId) {
+async function getFacilityById(facilityId: string) {
+  // TODO check mongo ID
   if (facilityId.match(/^[0-9a-fA-F]{32}$/)) {
-    const data = await facilityDB.find({ selector: { _id: facilityId } }, { include_docs: true })
-    return data.docs
+    return Facility.findById(facilityId)
   } else {
     throw Error(`The param value ${facilityId} is not a valid id value`)
   }
@@ -35,7 +30,7 @@ async function getFacilityById(facilityId) {
  * @param {*} longitude
  * @param {*} facilities
  */
-function findNearest(latitude, longitude, facilities) {
+function findNearest(latitude: number, longitude: number, facilities: any) {
   return geolib.findNearest({ latitude, longitude }, facilities)
 }
 
@@ -45,7 +40,7 @@ function findNearest(latitude, longitude, facilities) {
  * @param {*} longitude
  * @param {*} facilities
  */
-function orderByDistance(latitude, longitude, facilities) {
+function orderByDistance(latitude: number, longitude: number, facilities: any) {
   return geolib.orderByDistance({ latitude, longitude }, facilities)
 }
 
@@ -55,7 +50,7 @@ function orderByDistance(latitude, longitude, facilities) {
  * @param {*} longitude
  * @returns
  */
-async function getNearestFacilities(latitude, longitude) {
+async function getNearestFacilities(latitude: number, longitude: number) {
   if (!longitude || !latitude) {
     throw Error('The input params are invalid: longitude or latitude unavailable')
   }
@@ -75,31 +70,29 @@ async function getNearestFacilities(latitude, longitude) {
  * @param {*} params
  * @returns
  */
-async function getFacilities({ id, latitude, longitude }) {
-  let facilities = null
-  if (id) {
-    // get facility
-    facilities = await getFacilityById(id)
-  } else if (latitude && longitude) {
-    // get nearest facilities
-    facilities = await getNearestFacilities(latitude, longitude)
-  } else {
-    // get all the facilities
-    facilities = await getAllFacilities()
-  }
+// async function getFacilities({ id: string, latitude: number, longitude: number }) {
+//   let facilities = null
+//   if (id) {
+//     // get facility
+//     facilities = await getFacilityById(id)
+//   } else if (latitude && longitude) {
+//     // get nearest facilities
+//     facilities = await getNearestFacilities(latitude, longitude)
+//   } else {
+//     // get all the facilities
+//     facilities = await getAllFacilities()
+//   }
 
-  return {
-    payload: facilities,
-  }
-}
+//   return {
+//     payload: facilities,
+//   }
+// }
 
 /**
  *
  * @param {*} params
  */
-async function getCoordinatesByAddress(params) {
-
-
+async function getCoordinatesByAddress(params: any) {
   // check params
   if (!params) {
     throw Error('The input params are undefined')
@@ -109,7 +102,7 @@ async function getCoordinatesByAddress(params) {
   }
 
   const addressToSearch = params.address
-  const results = await geocoder.search({ q: addressToSearch })
+  const results = await geoServer.search({ q: addressToSearch })
 
   // for now we get the place with the greatest value in "importance" attribute
   const firstResult = results[0]
@@ -120,8 +113,8 @@ async function getCoordinatesByAddress(params) {
     payload: {
       latitude: firstResult.lat,
       longitude: firstResult.lon,
-      address: firstResult.display_name
-    }
+      address: firstResult.display_name,
+    },
   }
 }
 
@@ -132,7 +125,5 @@ async function getCoordinatesByAddress(params) {
 // global.main = getFacilities
 
 // jest
-exports.getCoordinatesByAddress = getCoordinatesByAddress
-exports.getFacilities = getFacilities
-exports.findNearest = findNearest
-exports.orderByDistance = orderByDistance
+
+export { getCoordinatesByAddress, getAllFacilities, getNearestFacilities, orderByDistance }

@@ -24,4 +24,6 @@
 const Nominatim = require('nominatim-geocoder')
 const geoServer = new Nominatim()
 
-exports.geoServer = geoServer
+export {
+    geoServer  
+}; 

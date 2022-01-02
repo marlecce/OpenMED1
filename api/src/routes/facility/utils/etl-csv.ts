@@ -1,9 +1,8 @@
-const neatCsv = require('neat-csv')
-const fs = require('fs-extra')
-const path = require('path')
-const { geoServer } = require('./../geoServer')
+import neatCsv from 'neat-csv'
+import fs from 'fs-extra'
+import path from 'path'
 
-const { cloudant } = require('../cloudant')
+import { geoServer } from './../geoServer'
 
 /**
  *
@@ -25,15 +24,14 @@ const { cloudant } = require('../cloudant')
  *
  * @param {*} data
  */
-async function insertDataOnDatabase(data) {
-  const db = cloudant.db.use(process.env.CLOUDANT_DATABASE)
-  db.bulk({ docs: data }, function (err) {
-    if (err) {
-      throw err
-    }
-
-    console.log('All documents inserted')
-  })
+async function insertDataOnDatabase(data: any) {
+  // const db = cloudant.db.use(process.env.CLOUDANT_DATABASE)
+  // db.bulk({ docs: data }, function (err: any) {
+  //   if (err) {
+  //     throw err
+  //   }
+  //   console.log('All documents inserted')
+  // })
 }
 
 /**
@@ -41,7 +39,7 @@ async function insertDataOnDatabase(data) {
  * @param {string} rawName
  * @returns
  */
-function trasformFacilityName(rawName) {
+function trasformFacilityName(rawName: string) {
   return rawName
     .toLowerCase()
     .split(' ')
@@ -53,11 +51,10 @@ function trasformFacilityName(rawName) {
  * Transform data provided from CSV to be compliance to the openmed-app
  * @param {*} rawData
  */
-async function transformData(rawData) {
+async function transformData(rawData: any) {
   // coordinates from address
   const transformedData = await Promise.all(
-    rawData.map(async (raw) => {
-
+    rawData.map(async (raw: any) => {
       const state = trasformFacilityName(raw.state)
       const town = trasformFacilityName(raw.town)
       const postalcode = raw.postalcode
@@ -69,7 +66,7 @@ async function transformData(rawData) {
       let latitude = raw.latitude
       let longitude = raw.longitude
 
-      const country =  !raw.country ? 'IT' : raw.country 
+      const country = !raw.country ? 'IT' : raw.country
       const addressToSearch = `${street}, ${postalcode}, ${town}, ${country}`
 
       const results = await geoServer.search({ q: addressToSearch })
@@ -110,7 +107,7 @@ async function transformData(rawData) {
           state,
           county,
           postalcode,
-          country
+          country,
         },
         domainIdentifier,
         latitude,
@@ -125,11 +122,11 @@ async function transformData(rawData) {
 /**
  * Read CSV file and return an array of objects (an object for each raw in the CSV file)
  */
-async function readCSVData() {
+async function readCSVData(): Promise<any> {
   return new Promise(function (resolve, reject) {
     fs.readFile(
       path.join(__dirname, '../../../models', `/${process.env.IMPORT_CSV_FILENAME}`),
-      async (err, data) => {
+      async (err: any, data: any) => {
         if (err) {
           console.error(err)
           reject(err)
@@ -148,7 +145,7 @@ async function readCSVData() {
  */
 async function importDataFromCSV() {
   // check if file exists
-  const filename = process.env.IMPORT_CSV_FILENAME
+  const filename = process.env.IMPORT_CSV_FILENAME!
   const csvPath = path.join(__dirname, '../../../models', filename)
   if (!fs.pathExists(csvPath)) {
     throw new Error(
@@ -166,4 +163,4 @@ async function importDataFromCSV() {
   insertDataOnDatabase(tranformedData)
 }
 
-export { readCSVData, transformData, importDataFromCSV};
+export { readCSVData, transformData, importDataFromCSV }
