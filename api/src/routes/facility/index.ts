@@ -1,6 +1,6 @@
-import geolib from 'geolib'
+import * as geolib from 'geolib'
 
-import { Facility } from './../../models/facility'
+import { Facility, FacilityDoc } from './../../models/facility'
 import { geoServer } from './geoServer'
 
 /**
@@ -8,7 +8,15 @@ import { geoServer } from './geoServer'
  * @returns
  */
 async function getAllFacilities() {
-  return Facility.getAllFacilities()
+  return Facility.find()
+}
+
+/**
+ *
+ * @returns
+ */
+function getAllFacilitiesCoordinates() {
+  return Facility.find().select('-_id latitude longitude')
 }
 
 /**
@@ -30,8 +38,9 @@ async function getFacilityById(facilityId: string) {
  * @param {*} longitude
  * @param {*} facilities
  */
-function findNearest(latitude: number, longitude: number, facilities: any) {
-  return geolib.findNearest({ latitude, longitude }, facilities)
+async function findNearest(latitude: number, longitude: number, facilities: any) {
+  const data: any = geolib.findNearest({ latitude, longitude }, facilities)
+  return data
 }
 
 /**

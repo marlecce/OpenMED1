@@ -3,8 +3,6 @@ import mongoose from 'mongoose'
 import request from 'supertest'
 
 import { app } from '../app'
-import facilitiesData from '../routes/facility/__test__/facilities.json'
-import { Facility } from '../models/facility'
 
 declare global {
   namespace NodeJS {
@@ -24,9 +22,6 @@ beforeAll(async () => {
   const mongoUri = mongo.getUri()
 
   await mongoose.connect(mongoUri)
-
-  // create and populate facility collection
-  await Facility.insertMany(facilitiesData)
 })
 
 beforeEach(async () => {

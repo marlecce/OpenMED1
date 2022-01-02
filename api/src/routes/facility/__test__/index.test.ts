@@ -1,3 +1,8 @@
+import mongoose from 'mongoose'
+
+import facilitiesData from '../../../routes/facility/__test__/facilities.json'
+import { Facility } from '../../../models/facility'
+
 import {
   getCoordinatesByAddress,
   getNearestFacilities,
@@ -6,6 +11,11 @@ import {
 } from '../index'
 
 describe('Facility test suite', function () {
+  beforeEach(async () => {
+    // create and populate facility collection
+    await Facility.insertMany(facilitiesData)
+  })
+
   it('should return the param errors trying to retrieve the coordinates from an address', async () => {
     await expect(getCoordinatesByAddress({ address: '' })).rejects.toThrow(
       'The input params are invalid: address unavailable'
@@ -27,22 +37,21 @@ describe('Facility test suite', function () {
     )
   })
 
-  it('should get the nearest facilities', () => {
+  it('should get the nearest facilities', async () => {
     // get the nearest facilities
     const latitude = 38.6111
     const longitude = -90.3225
-    const nearestFacilities = getNearestFacilities(latitude, longitude)
+    const nearestFacilities = await getNearestFacilities(latitude, longitude)
 
     // check data
     expect(nearestFacilities).toBeDefined()
-    console.log(nearestFacilities)
-    // expect(nearestFacilities.id).toStrictEqual(10)
-    // expect(nearestFacilities.name).toStrictEqual('Alcon Laboratories, Inc.')
-    // expect(nearestFacilities.address.street).toStrictEqual('7 Di Loreto Park')
-    // expect(nearestFacilities.address.town).toStrictEqual('Saint Louis')
-    // expect(nearestFacilities.address.state).toStrictEqual('Missouri')
-    // expect(nearestFacilities.address.county).toStrictEqual('MO')
-    // expect(nearestFacilities.address.postalCode).toStrictEqual('63143')
+    expect(nearestFacilities.id).toBeDefined()
+    expect(nearestFacilities.name).toStrictEqual('Alcon Laboratories, Inc.')
+    expect(nearestFacilities.street).toStrictEqual('7 Di Loreto Park')
+    expect(nearestFacilities.town).toStrictEqual('Saint Louis')
+    expect(nearestFacilities.state).toStrictEqual('Missouri')
+    expect(nearestFacilities.county).toStrictEqual('MO')
+    expect(nearestFacilities.postalCode).toStrictEqual('63143')
   })
 
   it.skip('should order the facilities from the nearest', () => {
