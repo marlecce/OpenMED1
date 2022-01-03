@@ -2,12 +2,13 @@ import express from 'express';
 import 'express-async-errors';
 import { json } from 'body-parser';
 import cookieSession from 'cookie-session';
-import { errorHandler, NotFoundError } from './common';
+import { errorHandler, NotFoundError, currentUser } from './common';
 
 import { currentUserRouter } from './routes/auth/current-user';
 import { signinRouter } from './routes/auth/signin';
 import { signoutRouter } from './routes/auth/signout';
 import { signupRouter } from './routes/auth/signup';
+
 import { facilityRouter } from './routes/facility';
 
 const app = express();
@@ -19,6 +20,7 @@ app.use(
     secure: process.env.NODE_ENV !== 'test',
   })
 );
+app.use(currentUser)
 
 app.use(currentUserRouter);
 app.use(signinRouter);

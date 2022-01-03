@@ -20,17 +20,25 @@ describe('Facility test suite', function () {
 
   it('should fetch all the facilities', async () => {
 
-    // get the user
-    const user = global.signin();
+    // get the cookie
+    const cookie = await global.signin();
    
     // make the request to fetch all the facilities
     const { body: fetchedFacilities } = await request(app)
     .get(`/v1/facilities`)
-    .set('Cookie', user)
+    .set('Cookie', cookie)
     .send()
     .expect(200)
 
-    console.log(fetchedFacilities)
+    expect(fetchedFacilities.length).toBe(10)
+  })
+
+  it('should return an unauthorized error fetching all the facility with no login', async () => {
+    // make an unauthorized request
+    const { body: fetchedFacilities } = await request(app)
+    .get(`/v1/facilities`)
+    .send()
+    .expect(401)
   })
 
   it('should return the param errors trying to retrieve the coordinates from an address', async () => {
@@ -54,7 +62,7 @@ describe('Facility test suite', function () {
     )
   })
 
-  it('should get the nearest facilities', async () => {
+  it.skip('should get the nearest facilities', async () => {
     // get the nearest facilities
     const latitude = 38.6111
     const longitude = -90.3225
