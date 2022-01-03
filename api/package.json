@@ -16,7 +16,12 @@
       "./src/test/setup.ts"
     ]
   },
-  "author": "",
+  "author": "FAIS Italia",
+  "contributors": [
+    "Nicola Caione",
+    "Marco Lecce",
+    "Giovanni Massafra"
+  ],
   "license": "ISC",
   "dependencies": {
     "@types/cookie-session": "^2.0.44",

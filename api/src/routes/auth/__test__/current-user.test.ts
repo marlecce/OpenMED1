@@ -2,20 +2,20 @@ import request from 'supertest';
 import { app } from '../../../app';
 
 it('responds with details about the current user', async () => {
-  const cookie = await global.signin();
+  const cookie = global.signin();
 
   const response = await request(app)
-    .get('/v1/api/users/currentuser')
+    .get('/v1/users/currentuser')
     .set('Cookie', cookie)
     .send()
     .expect(200);
-
+console.log(response.body)
   expect(response.body.currentUser.email).toEqual('test@test.com');
 });
 
 it('responds with null if not authenticated', async () => {
   const response = await request(app)
-    .get('/v1/api/users/currentuser')
+    .get('/v1/users/currentuser')
     .send()
     .expect(200);
 

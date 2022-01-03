@@ -1,5 +1,7 @@
 import mongoose from 'mongoose'
+import request from 'supertest';
 
+import { app } from '../../../app';
 import facilitiesData from '../../../routes/facility/__test__/facilities.json'
 import { Facility } from '../../../models/facility'
 
@@ -7,13 +9,28 @@ import {
   getCoordinatesByAddress,
   getNearestFacilities,
   orderByDistance,
-  getAllFacilities,
 } from '../index'
 
 describe('Facility test suite', function () {
+  
   beforeEach(async () => {
     // create and populate facility collection
     await Facility.insertMany(facilitiesData)
+  })
+
+  it('should fetch all the facilities', async () => {
+
+    // get the user
+    const user = global.signin();
+   
+    // make the request to fetch all the facilities
+    const { body: fetchedFacilities } = await request(app)
+    .get(`/v1/facilities`)
+    .set('Cookie', user)
+    .send()
+    .expect(200)
+
+    console.log(fetchedFacilities)
   })
 
   it('should return the param errors trying to retrieve the coordinates from an address', async () => {
@@ -57,7 +74,8 @@ describe('Facility test suite', function () {
   it.skip('should order the facilities from the nearest', () => {
     const latitude = 38.6111
     const longitude = -90.3225
-    const facilities = orderByDistance(latitude, longitude, getAllFacilities)
+    // const facilities = orderByDistance(latitude, longitude, getAllFacilities)
+    const facilities:any = []
 
     // check data
     expect(facilities).toBeDefined()

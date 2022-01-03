@@ -1,12 +1,22 @@
+import express, { Request, Response } from 'express'
 import * as geolib from 'geolib'
 
-import { Facility, FacilityDoc } from './../../models/facility'
+import { requireAuth } from '../../common'
+import { Facility } from './../../models/facility'
 import { geoServer } from './geoServer'
+
+// create the express router
+const router = express.Router()
 
 /**
  * GET /v1/facilities
  * @returns
  */
+router.get('/v1/facilities', requireAuth, async (req: Request, res: Response) => {
+  const facilities = await getAllFacilities()
+  res.send(facilities)
+})
+
 async function getAllFacilities() {
   return Facility.find()
 }
@@ -135,4 +145,4 @@ async function getCoordinatesByAddress(params: any) {
 
 // jest
 
-export { getCoordinatesByAddress, getAllFacilities, getNearestFacilities, orderByDistance }
+export { getCoordinatesByAddress, getNearestFacilities, orderByDistance, router as facilityRouter }

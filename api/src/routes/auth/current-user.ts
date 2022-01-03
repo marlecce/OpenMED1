@@ -3,7 +3,7 @@ import { currentUser } from '../../common';
 
 const router = express.Router();
 
-router.get('/v1/api/users/currentuser', currentUser, (req, res) => {
+router.get('/v1/users/currentuser', currentUser, (req, res) => {
   res.send({ currentUser: req.currentUser || null });
 });
 
