@@ -14,15 +14,29 @@ import {
   CInputGroupText,
   CRow,
 } from '@coreui/react'
-import { keycloak } from '../../../api/config'
+
 import CIcon from '@coreui/icons-react'
 
+import { apiServer } from '../../../api/config'
+
 const Login = () => {
-  const [username, setUsername] = useState('')
+  const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  function submitLogin() {
-    keycloak.login()
+  async function submitLogin() {
+    const loginResponse = await apiServer
+      .post(`/v1/users/signin`, {
+        email: email,
+        password: password,
+      })
+      .then(function (response) {
+        console.log(response)
+        location.href = `${process.env.REACT_APP_URL}`
+      })
+      .catch(function (error) {
+        console.log(error)
+      })
+    console.log(loginResponse)
   }
 
   return (
@@ -44,10 +58,10 @@ const Login = () => {
                       </CInputGroupPrepend>
                       <CInput
                         type="text"
-                        placeholder="Username"
-                        autoComplete="username"
-                        value={username}
-                        onChange={(event) => setUsername(event.target.value)}
+                        placeholder="Email"
+                        autoComplete="email"
+                        value={email}
+                        onChange={(event) => setEmail(event.target.value)}
                       />
                     </CInputGroup>
                     <CInputGroup className="mb-4">

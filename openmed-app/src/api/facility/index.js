@@ -5,7 +5,12 @@ import { apiServer } from '../../api/config'
  * @returns
  */
 async function getFacilities() {
-  return await apiServer.get(`/v1/facilities`).then((res) => Promise.resolve(res.data.payload))
+  return await apiServer
+    .get(`/v1/facilities`)
+    .then((res) => Promise.resolve(res.data.payload))
+    .catch((err) => {
+      console.error(err)
+    })
 }
 
 /**

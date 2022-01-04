@@ -9,14 +9,17 @@ import { geoServer } from './geoServer'
 const router = express.Router()
 
 /**
- * GET /v1/facilities
- * @returns
+ * 
  */
 router.get('/v1/facilities', requireAuth, async (req: Request, res: Response) => {
   const facilities = await getAllFacilities()
   res.send(facilities)
 })
 
+/**
+ * 
+ * @returns 
+ */
 async function getAllFacilities() {
   return Facility.find()
 }

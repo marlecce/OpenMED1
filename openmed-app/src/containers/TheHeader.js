@@ -11,7 +11,6 @@ import {
   CBreadcrumbRouter,
 } from '@coreui/react'
 import logo from '../assets/icons/openmed-logo.png'
-import { useKeycloak } from '@react-keycloak/web'
 
 // routes config
 import routes from '../routes'
@@ -26,7 +25,6 @@ import {
 const TheHeader = () => {
   const dispatch = useDispatch()
   const sidebarShow = useSelector((state) => state.sidebarShow)
-  const { initialized, keycloak } = useKeycloak()
 
   const toggleSidebar = () => {
     const val = [true, 'responsive'].includes(sidebarShow) ? false : 'responsive'
@@ -56,8 +54,6 @@ const TheHeader = () => {
       </CHeaderNav>
 
       <CHeaderNav className="px-3">
-        Initialized: [{initialized ? 'OK' : 'NO'}]; Auth: [{keycloak.authenticated ? 'OK' : 'NO'}];
-        User: [{keycloak.tokenParsed?.preferred_username}]
         <TheHeaderDropdownNotif />
         <TheHeaderDropdownTasks />
         <TheHeaderDropdownMssg />

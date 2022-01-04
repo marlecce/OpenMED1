@@ -8,15 +8,21 @@ import {
   CImg,
 } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
-import { keycloak } from '../api/config'
-
-const logout = () => {
-  keycloak.logout({
-    redirectUri: `${process.env.REACT_APP_URL}`,
-  })
-}
+import { apiServer } from '../api/config'
 
 const TheHeaderDropdown = () => {
+  async function logout() {
+    await apiServer
+      .post(`/v1/users/signout`)
+      .then(function (response) {
+        console.log(response)
+        location.href = `${process.env.REACT_APP_URL}`
+      })
+      .catch(function (error) {
+        console.log(error)
+      })
+  }
+
   return (
     <CDropdown inNav className="c-header-nav-items mx-2" direction="down">
       <CDropdownToggle className="c-header-nav-link" caret={false}>

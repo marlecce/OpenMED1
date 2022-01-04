@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react'
-import { Redirect, Route, Switch } from 'react-router-dom'
-import { CContainer, CFade, CSpinner } from '@coreui/react'
-import { useKeycloak } from '@react-keycloak/web'
+import { Redirect, /* Route, */ Switch } from 'react-router-dom'
+import { CContainer, /* CFade, */ CSpinner } from '@coreui/react'
 
 // routes config
 import routes from '../routes'
@@ -13,22 +12,21 @@ import routes from '../routes'
 //
 // eslint-disable-next-line react/prop-types
 function AuthRoute({ ...params }) {
-  const { keycloak } = useKeycloak()
-
-  return (
-    <Route
-      {...params}
-      render={(props) =>
-        !keycloak.authenticated && params.private ? (
-          keycloak.login({ redirectUri: window.location.href })
-        ) : (
-          <CFade>
-            <params.component {...props} />
-          </CFade>
-        )
-      }
-    />
-  )
+  // return (
+  //   <Route
+  //     {...params}
+  //     render={(props) =>
+  //       !keycloak.authenticated && params.private ? (
+  //         keycloak.login({ redirectUri: window.location.href })
+  //       ) : (
+  //         <CFade>
+  //           <params.component {...props} />
+  //         </CFade>
+  //       )
+  //     }
+  //   />
+  // )
+  return ''
 }
 
 const TheContent = () => {
