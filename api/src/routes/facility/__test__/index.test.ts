@@ -1,4 +1,3 @@
-import mongoose from 'mongoose'
 import request from 'supertest';
 
 import { app } from '../../../app';
@@ -8,7 +7,6 @@ import { Facility } from '../../../models/facility'
 import {
   getCoordinatesByAddress,
   getNearestFacilities,
-  orderByDistance,
 } from '../index'
 
 describe('Facility test suite', function () {

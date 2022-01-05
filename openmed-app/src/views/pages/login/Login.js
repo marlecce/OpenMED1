@@ -23,17 +23,17 @@ const Login = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  async function submitLogin() {
-    const loginResponse = await apiServer
+  function submitLogin() {
+    const loginResponse = apiServer
       .post(`/v1/users/signin`, {
         email: email,
         password: password,
       })
-      .then(function (response) {
+      .then((response) => {
         console.log(response)
         location.href = `${process.env.REACT_APP_URL}`
       })
-      .catch(function (error) {
+      .catch((error) => {
         console.log(error)
       })
     console.log(loginResponse)

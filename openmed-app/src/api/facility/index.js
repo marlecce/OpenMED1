@@ -4,12 +4,14 @@ import { apiServer } from '../../api/config'
  *
  * @returns
  */
-async function getFacilities() {
-  return await apiServer
+function getFacilities() {
+  return apiServer
     .get(`/v1/facilities`)
-    .then((res) => Promise.resolve(res.data.payload))
+    .then((res) => {
+      return res.data
+    })
     .catch((err) => {
-      console.error(err)
+      throw new Error(err.response.data.errors)
     })
 }
 
@@ -21,7 +23,7 @@ async function getFacilities() {
 async function getFacilityByFacilityId(facilityId) {
   return await apiServer
     .get(`/v1/facilities?id=${facilityId}`)
-    .then((res) => Promise.resolve(res.data.payload))
+    .then((res) => Promise.resolve(res.data))
 }
 
 /**
@@ -33,7 +35,7 @@ async function getFacilityByFacilityId(facilityId) {
 async function getFacilityByCoordinates(latitude, longitude) {
   return await apiServer
     .get(`/v1/facilities?latitude=${latitude}&longitude=${longitude}`)
-    .then((res) => Promise.resolve(res.data.payload))
+    .then((res) => Promise.resolve(res.data))
 }
 
 /**
@@ -45,7 +47,7 @@ async function getCoordinatesByAddress(address) {
   console.log(encodeURIComponent(address))
   return await apiServer
     .get('/v1/facilities/coordinatesByAddress?address=' + encodeURIComponent(address))
-    .then((res) => Promise.resolve(res.data.payload))
+    .then((res) => Promise.resolve(res.data))
 }
 
 export { getFacilities, getFacilityByFacilityId, getFacilityByCoordinates, getCoordinatesByAddress }

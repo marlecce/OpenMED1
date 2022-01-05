@@ -1,28 +1,33 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { TheContent, TheSidebar, TheFooter, TheHeader } from './index'
-import { apiServer } from '../api/config'
+// import { apiServer } from '../api/config'
 
 const TheLayout = () => {
-  useEffect(() => {
-    apiServer.interceptors.request.use(
-      function (config) {
-        let currentUser = null
+  // const [currentUser, setCurrentUser] = useState('')
 
-        apiServer.get('/v1/users/currentuser').then((response) => {
-          currentUser = response.body.currentUser
-        })
-
-        if (currentUser) {
-          // config.headers.Cookie = `Bearer ${keycloak.token}`
-        }
-        return config
-      },
-
-      function (error) {
-        return Promise.reject(error)
-      }
-    )
-  }, [])
+  // useEffect(() => {
+  //   apiServer.interceptors.request.use(
+  //     function (config) {
+  //       apiServer
+  //         .get('/v1/users/currentuser')
+  //         .then((response) => {
+  //           setCurrentUser(response.data.currentUser)
+  //         })
+  //         .catch((err) => {
+  //           console.error(err)
+  //           Promise.reject(err)
+  //         })
+  //       if (currentUser) {
+  //         console.log(currentUser)
+  //         config.headers.Cookie = currentUser
+  //       }
+  //       return config
+  //     },
+  //     function (error) {
+  //       return Promise.reject(error)
+  //     }
+  //   )
+  // }, [])
 
   return (
     <div>

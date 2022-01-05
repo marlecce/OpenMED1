@@ -7,6 +7,7 @@
     "test": "jest --watchAll --no-cache",
     "eslint": "eslint",
     "start": "ts-node-dev src/index.ts",
+    "seed": "ts-node-dev src/seed.ts",
     "deploy": "npx webpack --config webpack.config.js && npm run deploy:ibmcloud"
   },
   "jest": {

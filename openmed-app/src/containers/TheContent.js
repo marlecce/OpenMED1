@@ -1,9 +1,11 @@
 import React, { Suspense } from 'react'
-import { Redirect, /* Route, */ Switch } from 'react-router-dom'
-import { CContainer, /* CFade, */ CSpinner } from '@coreui/react'
+import { Redirect, Route, Switch } from 'react-router-dom'
+import { CContainer, CFade, CSpinner } from '@coreui/react'
 
 // routes config
 import routes from '../routes'
+
+import { apiServer } from '../api/config'
 
 // A wrapper for <Route> that redirects to the login
 // screen if you're not yet authenticated.
@@ -12,21 +14,35 @@ import routes from '../routes'
 //
 // eslint-disable-next-line react/prop-types
 function AuthRoute({ ...params }) {
-  // return (
-  //   <Route
-  //     {...params}
-  //     render={(props) =>
-  //       !keycloak.authenticated && params.private ? (
-  //         keycloak.login({ redirectUri: window.location.href })
-  //       ) : (
-  //         <CFade>
-  //           <params.component {...props} />
-  //         </CFade>
-  //       )
-  //     }
-  //   />
-  // )
-  return ''
+  let currentUser = null
+
+  apiServer
+    .get('/v1/users/currentuser')
+    .then((response) => {
+      currentUser = response.data.currentUser
+    })
+    .catch((err) => {
+      console.error(err)
+      Promise.reject(err)
+    })
+
+  console.log('currentUser', currentUser)
+
+  return (
+    <Route
+      {...params}
+      render={(props) =>
+        !currentUser ? (
+          console.log('redirect')
+        ) : (
+          //  window.location.href = `${process.env.REACT_APP_URL}`
+          <CFade>
+            <params.component {...props} />
+          </CFade>
+        )
+      }
+    />
+  )
 }
 
 const TheContent = () => {
