@@ -5,7 +5,7 @@ import { CContainer, CFade, CSpinner } from '@coreui/react'
 // routes config
 import routes from '../routes'
 
-import { apiServer } from '../api/config'
+// import { apiServer } from '../api/config'
 
 // A wrapper for <Route> that redirects to the login
 // screen if you're not yet authenticated.
@@ -14,33 +14,30 @@ import { apiServer } from '../api/config'
 //
 // eslint-disable-next-line react/prop-types
 function AuthRoute({ ...params }) {
-  let currentUser = null
+  // const [currentUser, setCurrentUser] = useState(null)
 
-  apiServer
-    .get('/v1/users/currentuser')
-    .then((response) => {
-      currentUser = response.data.currentUser
-    })
-    .catch((err) => {
-      console.error(err)
-      Promise.reject(err)
-    })
+  // apiServer
+  //   .get('/v1/users/currentuser')
+  //   .then((response) => {
+  //     setCurrentUser(response.data.currentUser)
+  //     console.log('currentUser', currentUser)
+  //   })
+  //   .catch((err) => {
+  //     console.error(err)
+  //   })
 
-  console.log('currentUser', currentUser)
+  // if (!currentUser) {
+  //   return <Redirect to="/login" />
+  // }
 
   return (
     <Route
       {...params}
-      render={(props) =>
-        !currentUser ? (
-          console.log('redirect')
-        ) : (
-          //  window.location.href = `${process.env.REACT_APP_URL}`
-          <CFade>
-            <params.component {...props} />
-          </CFade>
-        )
-      }
+      render={(props) => (
+        <CFade>
+          <params.component {...props} />
+        </CFade>
+      )}
     />
   )
 }

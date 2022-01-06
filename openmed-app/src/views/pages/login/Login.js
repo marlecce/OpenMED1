@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Redirect } from 'react-router-dom'
 import {
   CButton,
   CCard,
@@ -22,24 +22,26 @@ import { apiServer } from '../../../api/config'
 const Login = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [logged, isLogged] = useState(false)
 
   function submitLogin() {
-    const loginResponse = apiServer
+    apiServer
       .post(`/v1/users/signin`, {
         email: email,
         password: password,
       })
       .then((response) => {
         console.log(response)
-        location.href = `${process.env.REACT_APP_URL}`
+        isLogged(true)
       })
       .catch((error) => {
         console.log(error)
       })
-    console.log(loginResponse)
   }
 
-  return (
+  return logged ? (
+    <Redirect to="/" />
+  ) : (
     <div className="c-app c-default-layout flex-row align-items-center">
       <CContainer>
         <CRow className="justify-content-center">

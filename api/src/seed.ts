@@ -3,7 +3,23 @@ require('dotenv').config()
 import mongoose from 'mongoose'
 
 import { Facility } from './models/facility'
+import { User } from './models/user'
 import facilitiesData from './routes/facility/__test__/facilities.json'
+
+/**
+ *
+ */
+const populateUsers = async function () {
+  console.log(`Droping users....`)
+  await User.deleteMany({})
+
+  console.log(`Inserting user....`)
+  const userEmail = 'user@openmed.test'
+  const userPassword = 'password'
+  const user = User.build({ email: userEmail, password: userPassword })
+  await user.save()
+  console.log(`User inserted!`)
+}
 
 /**
  *
@@ -29,6 +45,9 @@ const runSeed = async () => {
     const openmedMongo = await mongoose.connect(process.env.MONGO_URI)
     const databaseName = openmedMongo.connection.db.databaseName
     console.log(`Connected to MongoDb database: ${databaseName}`)
+
+    // users
+    await populateUsers()
 
     // facilities
     await populateFacilities()
