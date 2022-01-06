@@ -16,7 +16,13 @@ Partendo dal file ".env.template" creare il file ".env" impostando correttamente
 
 - **REACT_APP_API_SERVER**: è l'URL dell'API server di OpenMED. In sviluppo sarà: [http://localhost:3001](http://localhost:3001)
 
-## Comandi Utili
+## Utilizzo
 
-- `npm i` : da lanciare per installare i pacchetti necessari per avviare l'applicazione
-- `npm start` : lancia l'applicazione
+Per lanciare il client:
+
+```bash
+cd openmed-app
+mv .env.template .env  # necessario al primo avvio
+npm install     # necessario al primo avvio
+npm start
+```
