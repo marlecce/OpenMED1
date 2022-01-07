@@ -36,7 +36,7 @@ const Facilities = () => {
       apiServer
         .get(`/v1/facilities`)
         .then((facilities) => {
-          setFacilities(facilities)
+          setFacilities(facilities.data)
         })
         .catch((err) => {
           const errors = err.response.data.errors[0].message
@@ -112,7 +112,6 @@ const Facilities = () => {
             ))}
           </CListGroup>
         )}
-        );
       </span>
     )
   }

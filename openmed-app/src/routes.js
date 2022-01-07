@@ -50,14 +50,14 @@ const routes = [
     path: '/dashboard',
     name: 'Dashboard',
     component: Dashboard,
-    private: false,
+    private: true,
   },
   {
     path: '/users',
     exact: true,
     name: 'Users',
     component: Users,
-    private: false,
+    private: true,
   },
   { path: '/users/:id', exact: true, name: 'User Details', component: User },
 ]

@@ -16,11 +16,12 @@ import { facilityRouter } from './routes/facility';
 const app = express();
 app.set('trust proxy', true);
 app.use(json());
-app.use(cors());
+app.use(cors({origin: ['http://localhost:3000'], credentials: true}));
 app.use(
   cookieSession({
     signed: false,
-    secure: process.env.NODE_ENV !== 'test',
+    // secure: process.env.NODE_ENV !== 'test',
+    secure: false,
   })
 );
 app.use(currentUser)

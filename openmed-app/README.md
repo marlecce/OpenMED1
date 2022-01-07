@@ -26,3 +26,12 @@ mv .env.template .env  # necessario al primo avvio
 npm install     # necessario al primo avvio
 npm start
 ```
+
+## Login
+
+La procedura di [seed](../api/README.md) genera alcuni utenti di default che possono essere utilizzati per i primi login:
+
+### Utente
+
+email: `user@openmed.test`
+password: `password`
