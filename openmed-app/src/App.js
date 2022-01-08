@@ -3,8 +3,6 @@ import { HashRouter, Route, Switch } from 'react-router-dom'
 import { CSpinner } from '@coreui/react'
 import './scss/style.scss'
 
-import PrivateRoute from './components/PrivateRoute'
-
 // Containers
 const TheLayout = React.lazy(() => import('./containers/TheLayout'))
 
@@ -28,8 +26,7 @@ class App extends Component {
             />
             <Route exact path="/404" name="Page 404" render={(props) => <Page404 {...props} />} />
             <Route exact path="/500" name="Page 500" render={(props) => <Page500 {...props} />} />
-            {/* <Route path="/" name="Home" render={(props) => <TheLayout {...props} />} /> */}
-            <PrivateRoute path="/" name="home" component={(props) => <TheLayout {...props} />} />
+            <Route path="/" name="Home" render={(props) => <TheLayout {...props} />} />
           </Switch>
         </React.Suspense>
       </HashRouter>

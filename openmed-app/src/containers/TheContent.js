@@ -1,11 +1,9 @@
 import React, { Suspense } from 'react'
-import { Redirect, Switch } from 'react-router-dom'
-import { CContainer, CSpinner } from '@coreui/react'
+import { Redirect, Route, Switch } from 'react-router-dom'
+import { CContainer, CFade, CSpinner } from '@coreui/react'
 
 // routes config
 import routes from '../routes'
-
-import PrivateRoute from '../components/PrivateRoute'
 
 const TheContent = () => {
   return (
@@ -16,17 +14,23 @@ const TheContent = () => {
             {routes.map((route, idx) => {
               return (
                 route.component && (
-                  <PrivateRoute
+                  <Route
                     key={idx}
                     path={route.path}
                     exact={route.exact}
                     name={route.name}
                     private={route.private}
                     component={route.component}
+                    render={(props) => (
+                      <CFade>
+                        <route.component {...props} />
+                      </CFade>
+                    )}
                   />
                 )
               )
             })}
+
             <Redirect from="/" to="/dashboard" />
           </Switch>
         </Suspense>
