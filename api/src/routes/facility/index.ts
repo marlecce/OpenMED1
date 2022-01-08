@@ -9,7 +9,15 @@ import { geoServer } from './geoServer'
 const router = express.Router()
 
 /**
- * 
+ *
+ */
+router.get('/v1/facilities/:facilityId', requireAuth, async (req: Request, res: Response) => {
+  const facility = await getFacilityById(req.params.facilityId)
+  res.send(facility)
+})
+
+/**
+ *
  */
 router.get('/v1/facilities', requireAuth, async (req: Request, res: Response) => {
   const facilities = await getAllFacilities()
@@ -17,8 +25,8 @@ router.get('/v1/facilities', requireAuth, async (req: Request, res: Response) =>
 })
 
 /**
- * 
- * @returns 
+ *
+ * @returns
  */
 async function getAllFacilities() {
   return Facility.find()
@@ -28,21 +36,21 @@ async function getAllFacilities() {
  *
  * @returns
  */
-function getAllFacilitiesCoordinates() {
-  return Facility.find().select('-_id latitude longitude')
-}
-
-/**
- * GET /v1/facilities?id=
- * @returns
- */
 async function getFacilityById(facilityId: string) {
   // TODO check mongo ID
-  if (facilityId.match(/^[0-9a-fA-F]{32}$/)) {
+  if (true) {
     return Facility.findById(facilityId)
   } else {
     throw Error(`The param value ${facilityId} is not a valid id value`)
   }
+}
+
+/**
+ *
+ * @returns
+ */
+function getAllFacilitiesCoordinates() {
+  return Facility.find().select('-_id latitude longitude')
 }
 
 /**

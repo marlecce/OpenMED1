@@ -15,24 +15,24 @@ const Facility = ({ match }) => {
 
   useEffect(() => {
     async function fetchFacility() {
-      const data = await getFacilityByFacilityId(facilityId)
-      const facility = data[0]
+      const facility = await getFacilityByFacilityId(facilityId)
+      console.log(facility)
       setFacility(facility)
     }
 
     fetchFacility()
   }, [facilityId])
 
-  if (facility._id) {
+  if (facility.id) {
     const latitude = facility.latitude
     const longitude = facility.longitude
     const point = [latitude, longitude]
-    const address = facility.address.street
-    const town = facility.address.town
-    const postalcode = facility.address.postalcode
-    const county = facility.address.county
-    const state = facility.address.state
-    const country = facility.address.country
+    const address = facility.street
+    const town = facility.town
+    const postalcode = facility.postalcode
+    const county = facility.county
+    const state = facility.state
+    const country = facility.country
     const zoom = 13
 
     return (

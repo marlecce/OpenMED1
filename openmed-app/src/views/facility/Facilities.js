@@ -15,12 +15,12 @@ import {
 import CIcon from '@coreui/icons-react'
 
 import {
-  // getFacilities,
+  getFacilities,
   getFacilityByCoordinates,
   getCoordinatesByAddress,
 } from '../../api/facility'
 
-import { apiServer } from '../../api/config'
+// import { apiServer } from '../../api/config'
 
 /**
  *
@@ -33,15 +33,13 @@ const Facilities = () => {
 
   useEffect(() => {
     function fetchFacilities() {
-      apiServer
-        .get(`/v1/facilities`)
+      getFacilities()
         .then((facilities) => {
-          setFacilities(facilities.data)
+          setFacilities(facilities)
         })
         .catch((err) => {
           const errors = err.response.data.errors[0].message
           setErrors(errors)
-          console.log(err.response.data.errors)
         })
     }
 
@@ -103,7 +101,7 @@ const Facilities = () => {
               <CListGroupItem key={idx}>
                 <CLink
                   to={{
-                    pathname: `/facilities/${facility._id}`,
+                    pathname: `/facilities/${facility.id}`,
                   }}
                 >
                   {facility.name}

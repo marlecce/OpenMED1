@@ -4,7 +4,7 @@ import { apiServer } from '../../api/config'
  *
  * @returns
  */
-function getFacilities() {
+async function getFacilities() {
   return apiServer
     .get(`/v1/facilities`)
     .then((res) => {
@@ -21,9 +21,14 @@ function getFacilities() {
  * @returns
  */
 async function getFacilityByFacilityId(facilityId) {
-  return await apiServer
-    .get(`/v1/facilities?id=${facilityId}`)
-    .then((res) => Promise.resolve(res.data))
+  return apiServer
+    .get(`/v1/facilities/${facilityId}`)
+    .then((res) => {
+      return res.data
+    })
+    .catch((err) => {
+      throw new Error(err.response.data.errors)
+    })
 }
 
 /**
