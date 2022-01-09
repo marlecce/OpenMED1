@@ -50,7 +50,9 @@ const Facilities = () => {
    *
    */
   async function getNearestFacilityByAddress() {
+    // TODO --> manage with a single call, something like "getFacilityByAddress(address)"
     const coordinates = await getCoordinatesByAddress(address)
+    console.log(coordinates)
     setAddress(coordinates.address)
 
     const facility = await getFacilityByCoordinates(coordinates.latitude, coordinates.longitude)

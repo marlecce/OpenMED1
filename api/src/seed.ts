@@ -1,9 +1,11 @@
 require('dotenv').config()
 
 import mongoose from 'mongoose'
+import fs from 'fs-extra'
 
 import { Facility } from './models/facility'
 import { User } from './models/user'
+import { transformData } from './routes/facility/utils/etl-json'
 import facilitiesData from './routes/facility/__test__/facilities.json'
 
 /**
@@ -28,8 +30,11 @@ const populateFacilities = async function () {
   console.log(`Droping facilities....`)
   await Facility.deleteMany({})
 
+  const transformedData = await transformData(facilitiesData)
+
   console.log(`Inserting facilities....`)
-  await Facility.insertMany(facilitiesData)
+  await Facility.insertMany(transformedData)
+
   console.log(`Facilities inserted!`)
 }
 

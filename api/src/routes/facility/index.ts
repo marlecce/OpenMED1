@@ -11,6 +11,43 @@ const router = express.Router()
 /**
  *
  */
+router.get('/v1/facilities/findnearest', requireAuth, async (req: Request, res: Response) => {
+  // get the params
+  const queryParams = req.query
+  if (!queryParams.longitude || !queryParams.latitude)
+    throw new Error('The input params are invalid: longitude or latitude unavailable')
+
+  // filter facilities by latitude and logitude
+  const latitude = queryParams.latitude as string
+  const longitude = queryParams.longitude as string
+
+  // get all facilities
+  const facilities = await getAllFacilities()
+
+  // get the nearest facility
+  const nearestFacility = await findNearest(parseFloat(latitude), parseFloat(longitude), facilities)
+
+  res.send(nearestFacility)
+})
+
+/**
+ *
+ */
+router.get(
+  '/v1/facilities/coordinatesByAddress',
+  requireAuth,
+  async (req: Request, res: Response) => {
+    if (!req.query.address) throw new Error('No address to search provided!')
+
+    const addressToSearch = req.query.address as string
+    const coordinates = await getCoordinatesByAddress(addressToSearch)
+    res.send(coordinates)
+  }
+)
+
+/**
+ *
+ */
 router.get('/v1/facilities/:facilityId', requireAuth, async (req: Request, res: Response) => {
   const facility = await getFacilityById(req.params.facilityId)
   res.send(facility)
@@ -47,10 +84,28 @@ async function getFacilityById(facilityId: string) {
 
 /**
  *
- * @returns
+ * @param {*} params
  */
-function getAllFacilitiesCoordinates() {
-  return Facility.find().select('-_id latitude longitude')
+async function getCoordinatesByAddress(addressToSearch: string) {
+  // check params
+  if (!addressToSearch) {
+    throw Error('The input params are invalid: address unavailable')
+  }
+
+  const results = await geoServer.search({ q: addressToSearch })
+
+  // return an empty object if no results are available
+  if (results.length === 0) return {}
+
+  // for now we get the place with the greatest value in "importance" attribute
+  const firstResult = results[0]
+
+  // return coordinates
+  return {
+    latitude: parseFloat(firstResult.lat),
+    longitude: parseFloat(firstResult.lon),
+    address: firstResult.display_name,
+  }
 }
 
 /**
@@ -60,6 +115,10 @@ function getAllFacilitiesCoordinates() {
  * @param {*} facilities
  */
 async function findNearest(latitude: number, longitude: number, facilities: any) {
+  if (!longitude || !latitude) {
+    throw Error('The input params are invalid: longitude or latitude unavailable')
+  }
+
   const data: any = geolib.findNearest({ latitude, longitude }, facilities)
   return data
 }
@@ -72,80 +131,11 @@ async function findNearest(latitude: number, longitude: number, facilities: any)
  */
 function orderByDistance(latitude: number, longitude: number, facilities: any) {
   return geolib.orderByDistance({ latitude, longitude }, facilities)
-}
-
-/**
- *
- * @param {*} latitude
- * @param {*} longitude
- * @returns
- */
-async function getNearestFacilities(latitude: number, longitude: number) {
-  if (!longitude || !latitude) {
-    throw Error('The input params are invalid: longitude or latitude unavailable')
-  }
-
-  // get facilities
-  const facilities = await getAllFacilities()
-
-  // get nearest facilities
-  const nearestFacility = findNearest(latitude, longitude, facilities)
-
-  // return closest facility
-  return nearestFacility
-}
-
-/**
- *
- * @param {*} params
- * @returns
- */
-// async function getFacilities({ id: string, latitude: number, longitude: number }) {
-//   let facilities = null
-//   if (id) {
-//     // get facility
-//     facilities = await getFacilityById(id)
-//   } else if (latitude && longitude) {
-//     // get nearest facilities
-//     facilities = await getNearestFacilities(latitude, longitude)
-//   } else {
-//     // get all the facilities
-//     facilities = await getAllFacilities()
-//   }
-
-//   return {
-//     payload: facilities,
-//   }
-// }
-
-/**
- *
- * @param {*} params
- */
-async function getCoordinatesByAddress(params: any) {
-  // check params
-  if (!params) {
-    throw Error('The input params are undefined')
-  }
-  if (!params.address) {
-    throw Error('The input params are invalid: address unavailable')
-  }
-
-  const addressToSearch = params.address
-  const results = await geoServer.search({ q: addressToSearch })
-
-  // for now we get the place with the greatest value in "importance" attribute
-  const firstResult = results[0]
-
-  // return coordinates
-  return {
-    status: 'OK',
-    payload: {
-      latitude: firstResult.lat,
-      longitude: firstResult.lon,
-      address: firstResult.display_name,
-    },
-  }
+  // return geolib.orderByDistance({ latitude: 51.515, longitude: -0.119722 }, [
+  //   { latitude: 52.516272, longitude: 13.377722 },
+  //   { latitude: 51.518, longitude: 7.45425 },
+  //   { latitude: 51.503333, longitude: -0.119722 },
+  // ])
 }
 
 // webpack
@@ -156,4 +146,4 @@ async function getCoordinatesByAddress(params: any) {
 
 // jest
 
-export { getCoordinatesByAddress, getNearestFacilities, orderByDistance, router as facilityRouter }
+export { getCoordinatesByAddress, orderByDistance, findNearest, router as facilityRouter }

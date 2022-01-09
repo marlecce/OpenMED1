@@ -9,7 +9,7 @@ interface FacilityAttrs {
   town: string
   state: string
   county: string
-  postalCode: number
+  postalcode: number
 }
 
 // An interface that describes the properties
@@ -29,7 +29,7 @@ interface FacilityDoc extends mongoose.Document {
   town: string
   state: string
   county: string
-  postalCode: number
+  postalcode: number
   domain_identifier: string
   latitude: number
   longitude: number
@@ -43,7 +43,7 @@ const FacilitySchema = new mongoose.Schema(
     },
     email: {
       type: String,
-      required: true,
+      required: false,
     },
     street: {
       type: String,
@@ -61,21 +61,21 @@ const FacilitySchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    postalCode: {
+    postalcode: {
       type: Number,
       required: true,
     },
     domain_identifier: {
       type: String,
-      required: true,
+      required: false,
     },
     latitude: {
       type: Number,
-      required: true,
+      required: false,
     },
     longitude: {
       type: Number,
-      required: true,
+      required: false,
     },
   },
   {
