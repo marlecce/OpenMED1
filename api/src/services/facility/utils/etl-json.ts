@@ -10,7 +10,8 @@ function trasformFacilityName(rawName: string) {
     .toLowerCase()
     .split(' ')
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ').trim()
+    .join(' ')
+    .trim()
 }
 
 /**
@@ -42,7 +43,7 @@ async function transformData(rawData: any) {
         latitude = results[0].lat
         longitude = results[0].lon
       } else {
-        // trying to broaden the search
+        // trying to broaden the searching town + county + country
 
         const broadenAddressToSearch = `${town}, ${county}, ${country}`
 
@@ -60,8 +61,15 @@ async function transformData(rawData: any) {
           console.error(
             `Unable to find geo data for the following address: ${JSON.stringify(
               broadenAddressToSearch
-            )} `
+            )}  so trying to broaden the search: ${postalcode}, ${state}`
           )
+
+          // so gettintg only the town
+          console.error(`Searching for ${postalcode}, ${state} ...`)
+          const broadenResults = await geoServer.search({ q: `${postalcode}, ${state}` })
+          console.error(`Found ${broadenResults} ...`)
+          latitude = broadenResults[0].lat
+          longitude = broadenResults[0].lon
         }
       }
 
@@ -75,9 +83,9 @@ async function transformData(rawData: any) {
       raw.country = country
       raw.domainIdentifier = domainIdentifier
       raw.location = {
-        type: "Point",
-        coordinates: [parseFloat(longitude),  parseFloat(latitude)]
-       }
+        type: 'Point',
+        coordinates: [parseFloat(longitude), parseFloat(latitude)],
+      }
 
       return raw
     })

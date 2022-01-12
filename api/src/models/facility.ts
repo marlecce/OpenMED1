@@ -27,6 +27,7 @@ interface FacilityDoc extends mongoose.Document {
   town: string
   state: string
   county: string
+  country: string
   postalcode: number
   domain_identifier: string
   location: object
@@ -62,15 +63,19 @@ const FacilitySchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
+    country: {
+      type: String,
+      required: true,
+    },
     domain_identifier: {
       type: String,
       required: false,
     },
     location: {
       type: { type: String },
-      coordinates: [Number],
-      required: false
-     }
+      coordinates: [],
+      required: false,
+    },
   },
   {
     toJSON: {
@@ -83,7 +88,7 @@ const FacilitySchema = new mongoose.Schema(
   }
 )
 
-FacilitySchema.index({ location: "2dsphere" })
+FacilitySchema.index({ location: '2dsphere' })
 
 FacilitySchema.statics.build = (attrs: FacilityAttrs) => {
   return new Facility(attrs)

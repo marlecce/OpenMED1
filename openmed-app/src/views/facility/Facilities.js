@@ -47,7 +47,6 @@ const Facilities = () => {
    */
   async function getNearestFacilityByAddress() {
     const coordinates = await getCoordinatesByAddress(address)
-    // console.log(coordinates)
     setAddress(coordinates.address)
 
     const facilities = await getNearestFacilities(coordinates.latitude, coordinates.longitude)

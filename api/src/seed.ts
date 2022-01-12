@@ -25,22 +25,23 @@ const populateUsers = async function () {
 
 /**
  *
+ * @param writeJSON
  */
-const populateFacilities = async function () {
+const populateFacilities = async function (writeJSON: boolean = false) {
   console.log(`Droping facilities....`)
   await Facility.deleteMany({})
 
   const transformedData = await transformData(facilitiesData)
 
   // write the facilities json data
-  fs.writeJson('./facilities.json', transformedData, err => {
-    if (err) return console.error(err)
-    console.log('success!')
-  })
-
+  if (writeJSON) {
+    fs.writeJson('./facilities.json', transformedData, (err) => {
+      if (err) return console.error(err)
+      console.log('success!')
+    })
+  }
   console.log(`Inserting facilities....`)
   await Facility.insertMany(transformedData)
-
 
   console.log(`Facilities inserted!`)
 }
@@ -62,7 +63,8 @@ const runSeed = async () => {
     await populateUsers()
 
     // facilities
-    await populateFacilities()
+    const writeJSON = false
+    await populateFacilities(writeJSON)
 
     await mongoose.disconnect()
   } catch (err) {

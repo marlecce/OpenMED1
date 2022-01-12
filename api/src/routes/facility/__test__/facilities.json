@@ -177,7 +177,7 @@
     "email": "",
     "domainIdentifier": "",
     "country": "IT",
-    "location": { "type": "Point", "coordinates": [15.8022077, 40.6384046] }
+    "location": { "type": "Point", "coordinates": [15.806281, 40.651872] }
   },
   {
     "state": "Basilicata",
@@ -189,7 +189,7 @@
     "email": "",
     "domainIdentifier": "",
     "country": "IT",
-    "location": { "type": "Point", "coordinates": [15.8022077, 40.6384046] }
+    "location": { "type": "Point", "coordinates": [15.802207, 40.638404] }
   },
   {
     "state": "Calabria",
@@ -2529,7 +2529,7 @@
     "email": "",
     "domainIdentifier": "",
     "country": "IT",
-    "location": { "type": "Point", "coordinates": [9.397, 40.283] }
+    "location": { "type": "Point", "coordinates": [8.507134, 39.185939] }
   },
   {
     "state": "Sardegna",

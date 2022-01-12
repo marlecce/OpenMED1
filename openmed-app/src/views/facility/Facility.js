@@ -23,6 +23,7 @@ const Facility = ({ match }) => {
   }, [facilityId])
 
   if (facility.id) {
+    console.log(facility)
     const latitude = facility.location.coordinates[1]
     const longitude = facility.location.coordinates[0]
     const point = [latitude, longitude]

@@ -20,8 +20,7 @@ app.use(cors({ origin: ['http://localhost:3000'], credentials: true }))
 app.use(
   cookieSession({
     signed: false,
-    // secure: process.env.NODE_ENV !== 'test',
-    secure: false,
+    secure: process.env.NODE_ENV === 'production',
     maxAge: 24 * 60 * 60 * 1000, // 24 hours
   })
 )
