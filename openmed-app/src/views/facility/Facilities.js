@@ -47,11 +47,11 @@ const Facilities = () => {
    */
   async function getNearestFacilityByAddress() {
     const coordinates = await getCoordinatesByAddress(address)
-    console.log(coordinates)
+    // console.log(coordinates)
     setAddress(coordinates.address)
 
     const facilities = await getNearestFacilities(coordinates.latitude, coordinates.longitude)
-    setFacilities([facilities])
+    setFacilities(facilities)
   }
 
   /**
@@ -94,6 +94,7 @@ const Facilities = () => {
           <CSpinner color="primary" />
         ) : (
           <CListGroup>
+            {/* {console.log(facilities)} */}
             {facilities.map((facility, idx) => (
               <CListGroupItem key={idx}>
                 <CLink

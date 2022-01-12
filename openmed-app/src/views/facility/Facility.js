@@ -16,7 +16,6 @@ const Facility = ({ match }) => {
   useEffect(() => {
     async function fetchFacility() {
       const facility = await getFacilityByFacilityId(facilityId)
-      console.log(facility)
       setFacility(facility)
     }
 
@@ -24,8 +23,8 @@ const Facility = ({ match }) => {
   }, [facilityId])
 
   if (facility.id) {
-    const latitude = facility.latitude
-    const longitude = facility.longitude
+    const latitude = facility.location.coordinates[1]
+    const longitude = facility.location.coordinates[0]
     const point = [latitude, longitude]
     const address = facility.street
     const town = facility.town
