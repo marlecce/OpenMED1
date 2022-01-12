@@ -2,7 +2,7 @@
 
 ## Configurazione
 
-Creare un file .env copiandolo da .env.template
+Creare un file .env copiandolo da .env.template. Il backend richiede che ci sia una installazione di mongo disponibile. Nel repository è disponibile un [docker-compose](../docker) pronto all'uso.
 
 ## Utilizzo
 
