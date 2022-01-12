@@ -8,9 +8,8 @@
     "street": "Tre Conche",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "42.0508987",
-    "longitude": "13.4187642",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.4187642, 42.0508987] }
   },
   {
     "state": "Abruzzo",
@@ -21,9 +20,8 @@
     "street": "Via Nizza",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "42.4501271",
-    "longitude": "13.223338",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.223338, 42.4501271] }
   },
   {
     "state": "Abruzzo",
@@ -31,12 +29,11 @@
     "postalcode": 67039,
     "county": "Aq",
     "name": "Ospedale Civile",
-    "street": "Viale Mazzini",
-    "email": " 1",
+    "street": "Viale Mazzini 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.0431788",
-    "longitude": "13.9279015",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.9279015, 42.0431788] }
   },
   {
     "state": "Abruzzo",
@@ -47,9 +44,8 @@
     "street": "Via Ianico 1",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "42.0718059",
-    "longitude": "14.4489025",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.4489025, 42.0718059] }
   },
   {
     "state": "Abruzzo",
@@ -60,9 +56,8 @@
     "street": "Via Valignani Angolo Via Tiro a Segno",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "42.3446529",
-    "longitude": "14.1659738",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.1659738, 42.3446529] }
   },
   {
     "state": "Abruzzo",
@@ -70,12 +65,11 @@
     "postalcode": 66034,
     "county": "Ch",
     "name": "Ospedale Civile",
-    "street": "Via Del mare",
-    "email": " 1",
+    "street": "Via Del mare 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.2296198",
-    "longitude": "14.3958539",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.397691602785576, 42.23014925] }
   },
   {
     "state": "Abruzzo",
@@ -86,9 +80,8 @@
     "street": "Via Ciccarone",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "42.12434",
-    "longitude": "14.705923",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.705923, 42.12434] }
   },
   {
     "state": "Abruzzo",
@@ -96,12 +89,11 @@
     "postalcode": 82761,
     "county": "Pe",
     "name": "Ospedale San Massimo",
-    "street": "Via Battaglione Alpini",
-    "email": " 1",
+    "street": "Via Battaglione Alpini 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.4582153",
-    "longitude": "13.9273256",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.9273256, 42.4582153] }
   },
   {
     "state": "Abruzzo",
@@ -109,12 +101,11 @@
     "postalcode": 65124,
     "county": "Pe",
     "name": "Ospedale Civile Dello Spirito Santo",
-    "street": "Via Fonte Romana",
-    "email": " 8",
+    "street": "Via Fonte Romana 8",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.4626568",
-    "longitude": "14.1963517",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.197452421261396, 42.463801399999994] }
   },
   {
     "state": "Abruzzo",
@@ -122,12 +113,11 @@
     "postalcode": 66125,
     "county": "Pe",
     "name": "Ospedale Civile",
-    "street": "Via Saffi",
-    "email": " 118",
+    "street": "Via Saffi 118",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.1713106",
-    "longitude": "13.832817",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.8318255, 42.1747704] }
   },
   {
     "state": "Abruzzo",
@@ -138,9 +128,8 @@
     "street": "Viale Risorgimento",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "42.5779016",
-    "longitude": "13.9847745",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.9847745, 42.5779016] }
   },
   {
     "state": "Abruzzo",
@@ -148,12 +137,11 @@
     "postalcode": 64027,
     "county": "Te",
     "name": "Ospedale Val Vibrata",
-    "street": "Contrada allla Salara",
-    "email": " 56",
+    "street": "Contrada allla Salara 56",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.7866721",
-    "longitude": "13.8017638",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.8017638, 42.7866721] }
   },
   {
     "state": "Abruzzo",
@@ -161,12 +149,11 @@
     "postalcode": 64100,
     "county": "Te",
     "name": "Ospedale Giuseppe Mazzini",
-    "street": "Piazza Italia",
-    "email": " 1",
+    "street": "Piazza Italia 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.6468299",
-    "longitude": "14.039596030058565",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.039596030058565, 42.6468299] }
   },
   {
     "state": "Basilicata",
@@ -177,9 +164,8 @@
     "street": "Contrada Cattedra Ambulante",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.668523",
-    "longitude": "16.601585",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [16.601585, 40.668523] }
   },
   {
     "state": "Basilicata",
@@ -190,9 +176,8 @@
     "street": "Contrada Macchia Romana",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.6384046",
-    "longitude": "15.8022077",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.8022077, 40.6384046] }
   },
   {
     "state": "Basilicata",
@@ -200,12 +185,11 @@
     "postalcode": 85101,
     "county": "Pz",
     "name": "Irccs Crob",
-    "street": "Via Padre Pio",
-    "email": " 1",
+    "street": "Via Padre Pio 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "",
-    "longitude": "",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.8022077, 40.6384046] }
   },
   {
     "state": "Calabria",
@@ -213,12 +197,11 @@
     "postalcode": 87100,
     "county": "Cs",
     "name": "Ospedale Civile Dell'annunziata",
-    "street": "Via Felice Migliori",
-    "email": " 1",
+    "street": "Via Felice Migliori 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "39.292967",
-    "longitude": "16.24936",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [16.24936, 39.292967] }
   },
   {
     "state": "Calabria",
@@ -226,12 +209,11 @@
     "postalcode": 88100,
     "county": "Cz",
     "name": "Azienda Ospedaliera Pugliese Ciaccio",
-    "street": "Via Vinicio Cortese",
-    "email": " 10",
+    "street": "Via Vinicio Cortese 10",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "38.9582497",
-    "longitude": "16.3126198",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [16.3126198, 38.9582497] }
   },
   {
     "state": "Calabria",
@@ -242,9 +224,8 @@
     "street": "Via Montegrappa",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "38.409031",
-    "longitude": "16.0766895",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [16.0766895, 38.409031] }
   },
   {
     "state": "Calabria",
@@ -252,12 +233,11 @@
     "postalcode": 89024,
     "county": "Rc",
     "name": "Ospedale Bianchi Melacrino Morelli",
-    "street": "Via Melacrino Giuseppe",
-    "email": " 21",
+    "street": "Via Melacrino Giuseppe 21",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "38.1147285",
-    "longitude": "15.6581187",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.6581187, 38.1147285] }
   },
   {
     "state": "Campania",
@@ -265,12 +245,11 @@
     "postalcode": 82100,
     "county": "Bn",
     "name": "Ospedale Civile Rummo Di Benevento",
-    "street": "Via Pacevecchia",
-    "email": " 53",
+    "street": "Via Pacevecchia 53",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.120187",
-    "longitude": "14.79327",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.79327, 41.120187] }
   },
   {
     "state": "Campania",
@@ -278,12 +257,11 @@
     "postalcode": 82100,
     "county": "Bn",
     "name": "Ospedale Sacro Cuore Di Gesu' - Fatebenefratelli",
-    "street": "Via Principe di Napoli",
-    "email": " 14",
+    "street": "Via Principe di Napoli 14",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.1411049",
-    "longitude": "14.7030885",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.7030885, 41.1411049] }
   },
   {
     "state": "Campania",
@@ -294,9 +272,8 @@
     "street": "Via Liberta'",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "41.0398815",
-    "longitude": "14.3792066",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.3792066, 41.0398815] }
   },
   {
     "state": "Campania",
@@ -307,9 +284,8 @@
     "street": "Via Pirozzi",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.9557397",
-    "longitude": "14.270948",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.270948, 40.9557397] }
   },
   {
     "state": "Campania",
@@ -317,12 +293,11 @@
     "postalcode": 80018,
     "county": "Na",
     "name": "Ospedale Villa Dei Fiori - Asl Na2",
-    "street": "Corso Italia",
-    "email": " 110",
+    "street": "Corso Italia 110",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "40.9110392",
-    "longitude": "14.1959613",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.1959613, 40.9110392] }
   },
   {
     "state": "Campania",
@@ -330,12 +305,11 @@
     "postalcode": 80131,
     "county": "Na",
     "name": "Istituto Nazionale Per La Cura E Studio Tumori - Fondazione Pascale",
-    "street": "Via Mariano Semmola",
-    "email": " 3",
+    "street": "Via Mariano Semmola 3",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "40.8615674",
-    "longitude": "14.2215633",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.2215633, 40.8615674] }
   },
   {
     "state": "Campania",
@@ -343,12 +317,11 @@
     "postalcode": 80131,
     "county": "Na",
     "name": "Azienda Ospedaliera Antonio Cardarelli",
-    "street": "Via Cardarelli",
-    "email": " 9",
+    "street": "Via Cardarelli 9",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "40.8358846",
-    "longitude": "14.2487679",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.2487679, 40.8358846] }
   },
   {
     "state": "Campania",
@@ -359,9 +332,8 @@
     "street": "Via Pansini",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.8358846",
-    "longitude": "14.2487679",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.2487679, 40.8358846] }
   },
   {
     "state": "Campania",
@@ -372,9 +344,8 @@
     "street": "Via Montedoro",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.7980893",
-    "longitude": "14.3820081",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.3820081, 40.7980893] }
   },
   {
     "state": "Campania",
@@ -382,12 +353,11 @@
     "postalcode": 84016,
     "county": "Sa",
     "name": "Studio Medico Associato Madonna Del Carmelo",
-    "street": "Piazza Bernardo D’Arezzo",
-    "email": " 9",
+    "street": "Piazza Bernardo D’Arezzo 9",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "40.7498877",
-    "longitude": "14.6133234",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.6133234, 40.7498877] }
   },
   {
     "state": "Campania",
@@ -398,9 +368,8 @@
     "street": "Via San Leonardo",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.6490422",
-    "longitude": "14.8266404",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.8266404, 40.6490422] }
   },
   {
     "state": "Campania",
@@ -411,9 +380,8 @@
     "street": "Via Passanti",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.7548737",
-    "longitude": "14.5248713",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.5248713, 40.7548737] }
   },
   {
     "state": "Emilia Romagna",
@@ -424,9 +392,8 @@
     "street": "Viale Dei Martiri 1",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "44.5028204",
-    "longitude": "11.0889142",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.0889142, 44.5028204] }
   },
   {
     "state": "Emilia Romagna",
@@ -434,12 +401,11 @@
     "postalcode": 40010,
     "county": "Bo",
     "name": "Ospedale Consorziale Si Bentivoglio",
-    "street": "Via G. Marconi",
-    "email": " 35",
+    "street": "Via G. Marconi 35",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.6357918",
-    "longitude": "11.4171933",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.4171933, 44.6357918] }
   },
   {
     "state": "Emilia Romagna",
@@ -447,12 +413,11 @@
     "postalcode": 40133,
     "county": "Bo",
     "name": "Ospedale Maggiore Carlo Alberto Pizzardi",
-    "street": "Largo Nigrisoli",
-    "email": " 2",
+    "street": "Largo Nigrisoli 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.5035006",
-    "longitude": "11.3154525",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.3157043, 44.5044458] }
   },
   {
     "state": "Emilia Romagna",
@@ -460,12 +425,11 @@
     "postalcode": 40138,
     "county": "Bo",
     "name": "Ospedale Sant'orsola Malpighi",
-    "street": "Via Pelagio Pelagi",
-    "email": " 9",
+    "street": "Via Pelagio Pelagi 9",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.4938203",
-    "longitude": "11.3426327",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.3426327, 44.4938203] }
   },
   {
     "state": "Emilia Romagna",
@@ -473,12 +437,11 @@
     "postalcode": 40139,
     "county": "Bo",
     "name": "Ospedale Bellaria",
-    "street": "Via Altura",
-    "email": " 3",
+    "street": "Via Altura 3",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.4687441",
-    "longitude": "11.3946903",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.3904777, 44.4640703] }
   },
   {
     "state": "Emilia Romagna",
@@ -486,12 +449,11 @@
     "postalcode": 40054,
     "county": "Bo",
     "name": "Ospedale Civile",
-    "street": "Via Benni",
-    "email": " 44",
+    "street": "Via Benni 44",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.537863",
-    "longitude": "11.5354979",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.5354979, 44.537863] }
   },
   {
     "state": "Emilia Romagna",
@@ -499,12 +461,11 @@
     "postalcode": 40026,
     "county": "Bo",
     "name": "Ospedale Santa Maria Della Scaletta",
-    "street": "Via Montericco",
-    "email": " 4",
+    "street": "Via Montericco 4",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.35472335",
-    "longitude": "11.688439490056567",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.6889618, 44.3578858] }
   },
   {
     "state": "Emilia Romagna",
@@ -512,12 +473,11 @@
     "postalcode": 40062,
     "county": "Bo",
     "name": "Azienda Asl Bologna Nord - Centro Aistom",
-    "street": "Via Circonvallazione",
-    "email": " 47",
+    "street": "Via Circonvallazione 47",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.620853",
-    "longitude": "11.6702371",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.6702371, 44.620853] }
   },
   {
     "state": "Emilia Romagna",
@@ -525,12 +485,11 @@
     "postalcode": 40046,
     "county": "Bo",
     "name": "Ospedale Costa",
-    "street": "Via Oreste Zagnoni",
-    "email": " 5",
+    "street": "Via Oreste Zagnoni 5",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.1627008",
-    "longitude": "10.9703319",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.9703319, 44.1627008] }
   },
   {
     "state": "Emilia Romagna",
@@ -538,12 +497,11 @@
     "postalcode": 40017,
     "county": "Bo",
     "name": "Ospedale Ss Salvatore",
-    "street": "Via Enzo Palma",
-    "email": " 1",
+    "street": "Via Enzo Palma 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.6332872",
-    "longitude": "11.1954141",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.1950145, 44.6321391] }
   },
   {
     "state": "Emilia Romagna",
@@ -551,12 +509,11 @@
     "postalcode": 44011,
     "county": "Fe",
     "name": "Ospedale Civile Mazzolani Vandini",
-    "street": "Via Nazionale",
-    "email": " 7",
+    "street": "Via Nazionale 7",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.6797576",
-    "longitude": "11.7448889",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.7039893, 44.7189742] }
   },
   {
     "state": "Emilia Romagna",
@@ -564,12 +521,11 @@
     "postalcode": 44042,
     "county": "Fe",
     "name": "Ospedale Di Cento",
-    "street": "Via Vicini",
-    "email": " 5",
+    "street": "Via Vicini 5",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.7274395",
-    "longitude": "11.2903029",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.2903029, 44.7274395] }
   },
   {
     "state": "Emilia Romagna",
@@ -577,12 +533,11 @@
     "postalcode": 44034,
     "county": "Fe",
     "name": "Casa Della Salute Terre E Fiumi",
-    "street": "Via Roma",
-    "email": "18",
+    "street": "Via Roma18",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.8952366",
-    "longitude": "11.8286516",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.8278892, 44.8941828] }
   },
   {
     "state": "Emilia Romagna",
@@ -590,12 +545,11 @@
     "postalcode": 44100,
     "county": "Fe",
     "name": "Casa Della Salute (ex Ospedlae Sant'anna)",
-    "street": "Corso Giovecca",
-    "email": " 203",
+    "street": "Corso Giovecca 203",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.8375658",
-    "longitude": "11.6212697",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.6312663, 44.8328133] }
   },
   {
     "state": "Emilia Romagna",
@@ -603,12 +557,11 @@
     "postalcode": 44023,
     "county": "Fe",
     "name": "Ospedale Del Delta",
-    "street": "Via Valle Oppio",
-    "email": " 2",
+    "street": "Via Valle Oppio 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.77005",
-    "longitude": "12.1269876",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.1319949, 44.7677895] }
   },
   {
     "state": "Emilia Romagna",
@@ -616,12 +569,11 @@
     "postalcode": 44012,
     "county": "Fe",
     "name": "Casa Della Salute",
-    "street": "Via De Amicis",
-    "email": " 22",
+    "street": "Via De Amicis 22",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.6992584",
-    "longitude": "11.804078",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.804078, 44.6992584] }
   },
   {
     "state": "Emilia Romagna",
@@ -629,12 +581,11 @@
     "postalcode": 47023,
     "county": "Fc",
     "name": "Ospedale Civile Maurizio Bufalini",
-    "street": "Viale Ghirotti",
-    "email": " 286",
+    "street": "Viale Ghirotti 286",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.1353856",
-    "longitude": "12.2595422",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.2596753, 44.1345972] }
   },
   {
     "state": "Emilia Romagna",
@@ -645,9 +596,8 @@
     "street": "Via Forlanini",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "44.2227278",
-    "longitude": "12.041273",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.041273, 44.2227278] }
   },
   {
     "state": "Emilia Romagna",
@@ -655,12 +605,11 @@
     "postalcode": 41126,
     "county": "Mo",
     "name": "Ospedale Civile S. Agostino-estense",
-    "street": "Via P. Giardini",
-    "email": " 1355",
+    "street": "Via P. Giardini 1355",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.607379550000005",
-    "longitude": "10.870978160665173",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.870978160665173, 44.607379550000005] }
   },
   {
     "state": "Emilia Romagna",
@@ -668,12 +617,11 @@
     "postalcode": 41012,
     "county": "Mo",
     "name": "Ospedale Ramazzini",
-    "street": "Via Molinari Guido",
-    "email": " 2",
+    "street": "Via Molinari Guido 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.7835699",
-    "longitude": "10.8854523",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.8854523, 44.7835699] }
   },
   {
     "state": "Emilia Romagna",
@@ -681,12 +629,11 @@
     "postalcode": 41100,
     "county": "Mo",
     "name": "Azienda Ospededaliera Policlinico Universitario Degli Studi Di Modena",
-    "street": "Via del Pozzo",
-    "email": " 71",
+    "street": "Via del Pozzo 71",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.6374932",
-    "longitude": "10.9410256",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.9410256, 44.6374932] }
   },
   {
     "state": "Emilia Romagna",
@@ -694,12 +641,11 @@
     "postalcode": 41049,
     "county": "Mo",
     "name": "Ospedale Civile Di Sassuolo",
-    "street": "Via Francesco Ruini",
-    "email": " 2",
+    "street": "Via Francesco Ruini 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.5409769",
-    "longitude": "10.7829023",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.7829023, 44.5409769] }
   },
   {
     "state": "Emilia Romagna",
@@ -707,12 +653,11 @@
     "postalcode": 29100,
     "county": "Pc",
     "name": "Ospedale Civile",
-    "street": "Via Taverna",
-    "email": " 49",
+    "street": "Via Taverna 49",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.0534751",
-    "longitude": "9.6947461",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.6947461, 45.0534751] }
   },
   {
     "state": "Emilia Romagna",
@@ -720,12 +665,11 @@
     "postalcode": 43100,
     "county": "Pr",
     "name": "Azienda Ospedaliera Di Parma",
-    "street": "Via Abbeveratoia",
-    "email": " 2",
+    "street": "Via Abbeveratoia 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.8013678",
-    "longitude": "10.3280833",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.3280833, 44.8013678] }
   },
   {
     "state": "Emilia Romagna",
@@ -733,12 +677,11 @@
     "postalcode": 48018,
     "county": "Ra",
     "name": "Ospedale Degli Infermi",
-    "street": "Viale Stradone",
-    "email": " 9",
+    "street": "Viale Stradone 9",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.2855831",
-    "longitude": "11.8742207",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.8745337, 44.2875465] }
   },
   {
     "state": "Emilia Romagna",
@@ -746,12 +689,11 @@
     "postalcode": 48022,
     "county": "Ra",
     "name": "Ospedale Di Lugo",
-    "street": "Viale Dante",
-    "email": " 10",
+    "street": "Viale Dante 10",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.4176193",
-    "longitude": "11.9188995",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.919574530339219, 44.41627715] }
   },
   {
     "state": "Emilia Romagna",
@@ -759,12 +701,11 @@
     "postalcode": 48100,
     "county": "Ra",
     "name": "C.m.p. - Centro Di Medicina E Prevenzione",
-    "street": "Via Fiume Abbandonato",
-    "email": " 134",
+    "street": "Via Fiume Abbandonato 134",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.4161414",
-    "longitude": "12.2017617",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.2017617, 44.4161414] }
   },
   {
     "state": "Emilia Romagna",
@@ -772,12 +713,11 @@
     "postalcode": 42016,
     "county": "Re",
     "name": "Ospedale Civile Di Guastalla",
-    "street": "Via Donatori di Sangue",
-    "email": " 1",
+    "street": "Via Donatori di Sangue 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.9205196",
-    "longitude": "10.6668892",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.6668892, 44.9205196] }
   },
   {
     "state": "Emilia Romagna",
@@ -785,12 +725,11 @@
     "postalcode": 42100,
     "county": "Re",
     "name": "Arcispedale Santa Maria Nuova",
-    "street": "Viale Risorgimento",
-    "email": " 80",
+    "street": "Viale Risorgimento 80",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.6882938",
-    "longitude": "10.6328601",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.630091161251734, 44.6835679] }
   },
   {
     "state": "Emilia Romagna",
@@ -801,9 +740,8 @@
     "street": "Viale Frosinone",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "43.9951767",
-    "longitude": "12.6488633",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.6488633, 43.9951767] }
   },
   {
     "state": "Emilia Romagna",
@@ -811,12 +749,11 @@
     "postalcode": 47900,
     "county": "Rn",
     "name": "Ospedale Degli Infermi",
-    "street": "Viale Luigi Settembrini",
-    "email": " 2",
+    "street": "Viale Luigi Settembrini 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.04472615",
-    "longitude": "12.5906604321875",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.5897482, 44.0429033] }
   },
   {
     "state": "Friuli Venezia Giulia",
@@ -824,12 +761,11 @@
     "postalcode": 34170,
     "county": "Go",
     "name": "Ospedale Civile",
-    "street": "Via Fatebenefratelli",
-    "email": " 34",
+    "street": "Via Fatebenefratelli 34",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.9441278",
-    "longitude": "13.6252288",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.6252288, 45.9441278] }
   },
   {
     "state": "Friuli Venezia Giulia",
@@ -837,12 +773,11 @@
     "postalcode": 33085,
     "county": "Pn",
     "name": "Ospedale Civile Immacolata Concezione",
-    "street": "Via Unità D'Italia",
-    "email": " 7",
+    "street": "Via Unità D'Italia 7",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.1729803",
-    "longitude": "12.7180035",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.713585452037183, 46.172368649999996] }
   },
   {
     "state": "Friuli Venezia Giulia",
@@ -850,12 +785,11 @@
     "postalcode": 33170,
     "county": "Pn",
     "name": "Azienda Ospedaliera Santa Maria Degli Angeli",
-    "street": "Via Montereale",
-    "email": " 24",
+    "street": "Via Montereale 24",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.963308",
-    "longitude": "12.6547111",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.653883625587156, 45.969011050000006] }
   },
   {
     "state": "Friuli Venezia Giulia",
@@ -863,12 +797,11 @@
     "postalcode": 33078,
     "county": "Pn",
     "name": "Ospedale Civile",
-    "street": "Via Savorgnano",
-    "email": " 2",
+    "street": "Via Savorgnano 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.9067509",
-    "longitude": "12.8564038",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.855550085519976, 45.91127005] }
   },
   {
     "state": "Friuli Venezia Giulia",
@@ -876,12 +809,11 @@
     "postalcode": 34149,
     "county": "Ts",
     "name": "Ospedale Di Cattinara Istituto Di Clinica Urologica -universita' Studi Di Trieste",
-    "street": "Strada di Fiume",
-    "email": " 447",
+    "street": "Strada di Fiume 447",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.6349643",
-    "longitude": "13.8305809",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.827527813975527, 45.633727199999996] }
   },
   {
     "state": "Friuli Venezia Giulia",
@@ -889,12 +821,11 @@
     "postalcode": 33013,
     "county": "Ud",
     "name": "Ospedale Civile San Michele",
-    "street": "Piazzale Rodolone",
-    "email": " 1",
+    "street": "Piazzale Rodolone 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.2770072",
-    "longitude": "13.1401049",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.1401049, 46.2770072] }
   },
   {
     "state": "Friuli Venezia Giulia",
@@ -902,12 +833,11 @@
     "postalcode": 33053,
     "county": "Ud",
     "name": "Ospedale Civile",
-    "street": "Via Sabbionera",
-    "email": " 45",
+    "street": "Via Sabbionera 45",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.7712909",
-    "longitude": "12.9983705",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.0017957, 45.7696004] }
   },
   {
     "state": "Friuli Venezia Giulia",
@@ -915,12 +845,11 @@
     "postalcode": 33057,
     "county": "Ud",
     "name": "Ospedale Di Palmanova",
-    "street": "Via Natisone",
-    "email": " 11- Frazione Jalmicco",
+    "street": "Via Natisone 11- Frazione Jalmicco",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.9097704",
-    "longitude": "13.3230584",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.3099318, 45.9054635] }
   },
   {
     "state": "Friuli Venezia Giulia",
@@ -928,12 +857,11 @@
     "postalcode": 33038,
     "county": "Ud",
     "name": "Ospedale Sant'antonio",
-    "street": "Via Trento e Trieste",
-    "email": " 33",
+    "street": "Via Trento e Trieste 33",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.1686201",
-    "longitude": "13.02187583988541",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.02187583988541, 46.1686201] }
   },
   {
     "state": "Friuli Venezia Giulia",
@@ -941,12 +869,11 @@
     "postalcode": 33028,
     "county": "Ud",
     "name": "Ospedale Sant'antonio Abate",
-    "street": "Via Papa Giovanni XXIII",
-    "email": 1,
+    "street": "Via Papa Giovanni XXIII1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.4053676",
-    "longitude": "13.0158357",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.0158357, 46.4053676] }
   },
   {
     "state": "Friuli Venezia Giulia",
@@ -954,12 +881,11 @@
     "postalcode": 33100,
     "county": "Ud",
     "name": "Azienda Ospedaliera Santa Maria Della Misericordia",
-    "street": "Piazzale S.Maria della Misericordia",
-    "email": " 11",
+    "street": "Piazzale S.Maria della Misericordia 11",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.0768313",
-    "longitude": "13.2300159",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.2299361, 46.0763899] }
   },
   {
     "state": "Lazio",
@@ -967,12 +893,11 @@
     "postalcode": 41,
     "county": "Rm",
     "name": "Nuovo Ospedale Dei Castelli",
-    "street": "Via Nettunense",
-    "email": " Km 11",
+    "street": "Via Nettunense Km 11",
+    "email": "",
     "domainIdentifier": "5",
-    "latitude": "41.708791",
-    "longitude": "12.6398818",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.639370129817706, 41.7090447] }
   },
   {
     "state": "Lazio",
@@ -983,9 +908,8 @@
     "street": "VIA ARMANDO FABI 5",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "41.636224",
-    "longitude": "13.3236381",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.3236381, 41.636224] }
   },
   {
     "state": "Lazio",
@@ -993,12 +917,11 @@
     "postalcode": 122,
     "county": "Rm",
     "name": "Ospedale Grassi",
-    "street": "Via Passeroni",
-    "email": " 28",
+    "street": "Via Passeroni 28",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.753654",
-    "longitude": "12.285744222370944",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.285744222370944, 41.753654] }
   },
   {
     "state": "Lazio",
@@ -1006,12 +929,11 @@
     "postalcode": 152,
     "county": "Rm",
     "name": "Ospedale San Camillo Forlanini",
-    "street": "Via Circonvallazione Gianicolense",
-    "email": " 87",
+    "street": "Via Circonvallazione Gianicolense 87",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.8735778",
-    "longitude": "12.4659071",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.4829321, 41.8933203] }
   },
   {
     "state": "Lazio",
@@ -1019,12 +941,11 @@
     "postalcode": 161,
     "county": "Rm",
     "name": "Ospedale Umberto I Universita' La Sapienza",
-    "street": "Viale del Policlinico",
-    "email": " 155",
+    "street": "Viale del Policlinico 155",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.9083296",
-    "longitude": "12.504582",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.5079143, 41.9090798] }
   },
   {
     "state": "Lazio",
@@ -1032,12 +953,11 @@
     "postalcode": 157,
     "county": "Rm",
     "name": "Sandro Pertini",
-    "street": "Via dei Monti Tiburtini",
-    "email": 385,
+    "street": "Via dei Monti Tiburtini385",
+    "email": "",
     "domainIdentifier": " 00157 Roma RM",
-    "latitude": "41.9131516",
-    "longitude": "12.5530222",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.4829321, 41.8933203] }
   },
   {
     "state": "Lazio",
@@ -1048,9 +968,8 @@
     "street": "Via A.De Portillo. 200",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "41.8933203",
-    "longitude": "12.4829321",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.4829321, 41.8933203] }
   },
   {
     "state": "Lazio",
@@ -1058,12 +977,11 @@
     "postalcode": 189,
     "county": "Rm",
     "name": "Ospedale Sant'andrea",
-    "street": "Via di Grottarossa",
-    "email": " 1035",
+    "street": "Via di Grottarossa 1035",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.9763543",
-    "longitude": "12.4641428",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.4740284, 41.9812516] }
   },
   {
     "state": "Lazio",
@@ -1071,12 +989,11 @@
     "postalcode": 168,
     "county": "Rm",
     "name": "Ospedale Policlinico Gemelli",
-    "street": "Largo Agostino Gemelli",
-    "email": " 8",
+    "street": "Largo Agostino Gemelli 8",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.9291755",
-    "longitude": "12.427478",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.4286602, 41.9297606] }
   },
   {
     "state": "Lazio",
@@ -1084,12 +1001,11 @@
     "postalcode": 135,
     "county": "Rm",
     "name": "Ospedale San Filippo Neri",
-    "street": "Via Martinotti",
-    "email": " 20",
+    "street": "Via Martinotti 20",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.8933203",
-    "longitude": "12.4829321",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.4829321, 41.8933203] }
   },
   {
     "state": "Lazio",
@@ -1100,9 +1016,8 @@
     "street": "Piazzale Dell'Umanesimo",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "41.8227714",
-    "longitude": "12.472131",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.472131, 41.8227714] }
   },
   {
     "state": "Lazio",
@@ -1110,12 +1025,11 @@
     "postalcode": 184,
     "county": "Rm",
     "name": "Ospedale San Giovanni Addolorata",
-    "street": "Via San Giovanni in Laterano",
-    "email": " 149/155",
+    "street": "Via San Giovanni in Laterano 149/155",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.8933203",
-    "longitude": "12.4829321",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.4829321, 41.8933203] }
   },
   {
     "state": "Lazio",
@@ -1123,12 +1037,11 @@
     "postalcode": 184,
     "county": "Rm",
     "name": "Ospedale San Pietro Fatebenefratelli",
-    "street": "Via Cassia",
-    "email": " 600",
+    "street": "Via Cassia 600",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.0110683",
-    "longitude": "12.3776241",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.3726547, 42.0545812] }
   },
   {
     "state": "Lazio",
@@ -1136,12 +1049,11 @@
     "postalcode": 184,
     "county": "Rm",
     "name": "Ospedale Sant'andrea",
-    "street": "Via di Grottarossa",
-    "email": " 1035",
+    "street": "Via di Grottarossa 1035",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.9763543",
-    "longitude": "12.4641428",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.4740284, 41.9812516] }
   },
   {
     "state": "Lazio",
@@ -1152,9 +1064,8 @@
     "street": "Via Orti Ginnetti",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "41.6844119",
-    "longitude": "12.7798694",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.7798694, 41.6844119] }
   },
   {
     "state": "Lazio",
@@ -1165,9 +1076,8 @@
     "street": "Strada Provinciale Sammartinese",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "42.4168441",
-    "longitude": "12.1051148",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.1051148, 42.4168441] }
   },
   {
     "state": "Liguria",
@@ -1178,9 +1088,8 @@
     "street": "Via Mura delle Capuccine 14",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "44.40726",
-    "longitude": "8.9338624",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.9338624, 44.40726] }
   },
   {
     "state": "Liguria",
@@ -1188,12 +1097,11 @@
     "postalcode": 16132,
     "county": "Ge",
     "name": "Ospedale Policlinico San Martino",
-    "street": "Largo Rosanna Benzi",
-    "email": " 10",
+    "street": "Largo Rosanna Benzi 10",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.40717345",
-    "longitude": "8.969883533875024",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.9743547, 44.4115363] }
   },
   {
     "state": "Liguria",
@@ -1201,12 +1109,11 @@
     "postalcode": 16149,
     "county": "Ge",
     "name": "Ospedale Villa Scassi",
-    "street": "Corso Scassi",
-    "email": " 1",
+    "street": "Corso Scassi 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.4123686",
-    "longitude": "8.897189",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.896734127325178, 44.412895649999996] }
   },
   {
     "state": "Liguria",
@@ -1214,12 +1121,11 @@
     "postalcode": 18100,
     "county": "Im",
     "name": "Ospedale Civile",
-    "street": "Via Sant'Agata",
-    "email": " 31",
+    "street": "Via Sant'Agata 31",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.8916706",
-    "longitude": "8.0315195",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.0315195, 43.8916706] }
   },
   {
     "state": "Liguria",
@@ -1230,9 +1136,8 @@
     "street": "Via Bragarina",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "44.1173915",
-    "longitude": "9.847462",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.847462, 44.1173915] }
   },
   {
     "state": "Liguria",
@@ -1243,9 +1148,8 @@
     "street": "Via Cisa Sud Località S. Caterina",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "44.1118716",
-    "longitude": "9.9587463",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.9587463, 44.1118716] }
   },
   {
     "state": "Liguria",
@@ -1253,12 +1157,11 @@
     "postalcode": 17027,
     "county": "Sv",
     "name": "Ospedale Santa Corona",
-    "street": "Via XXV Aprile",
-    "email": " 128",
+    "street": "Via XXV Aprile 128",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.1453416",
-    "longitude": "8.2764193",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.2764193, 44.1453416] }
   },
   {
     "state": "Liguria",
@@ -1266,12 +1169,11 @@
     "postalcode": 17100,
     "county": "Sv",
     "name": "Ospedale San Paolo",
-    "street": "Via Genova",
-    "email": " 30 Località Valloria",
+    "street": "Via Genova 30 Località Valloria",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.318499",
-    "longitude": "8.4869817",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.4810315, 44.3080251] }
   },
   {
     "state": "Lombardia",
@@ -1282,9 +1184,8 @@
     "street": "Piazza Oms",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.687040100000004",
-    "longitude": "9.638849197159313",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.638849197159313, 45.687040100000004] }
   },
   {
     "state": "Lombardia",
@@ -1292,12 +1193,11 @@
     "postalcode": 24125,
     "county": "Bg",
     "name": "Cliniche Gavazzeni",
-    "street": "Via M. Gavazzeni",
-    "email": " 21",
+    "street": "Via M. Gavazzeni 21",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.6944947",
-    "longitude": "9.6698727",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.6698727, 45.6944947] }
   },
   {
     "state": "Lombardia",
@@ -1305,12 +1205,11 @@
     "postalcode": 24068,
     "county": "Bg",
     "name": "Ospedale Bolognini",
-    "street": "Via Paderno",
-    "email": " 21",
+    "street": "Via Paderno 21",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.6720324",
-    "longitude": "9.7238308",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.7175799, 45.6831287] }
   },
   {
     "state": "Lombardia",
@@ -1318,12 +1217,11 @@
     "postalcode": 24022,
     "county": "Bg",
     "name": "Ospedale Pesenti Fenaroli",
-    "street": "Via Mazzini",
-    "email": " 88",
+    "street": "Via Mazzini 88",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.7336026",
-    "longitude": "9.730494",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.730494, 45.7336026] }
   },
   {
     "state": "Lombardia",
@@ -1331,12 +1229,11 @@
     "postalcode": 24047,
     "county": "Bg",
     "name": "Ospedale Caravaggio",
-    "street": "Piazzalle Ospedale",
-    "email": " 1",
+    "street": "Piazzalle Ospedale 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5217245",
-    "longitude": "9.5931485",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.5931485, 45.5217245] }
   },
   {
     "state": "Lombardia",
@@ -1344,12 +1241,11 @@
     "postalcode": 25123,
     "county": "Bs",
     "name": "Ospedali Civili",
-    "street": "Piazzale Spedali Civili",
-    "email": " 1",
+    "street": "Piazzale Spedali Civili 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5550047",
-    "longitude": "10.2329615",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.231261014351258, 45.55746175] }
   },
   {
     "state": "Lombardia",
@@ -1360,9 +1256,8 @@
     "street": "Via Bissolati",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5398022",
-    "longitude": "10.2200214",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.2200214, 45.5398022] }
   },
   {
     "state": "Lombardia",
@@ -1373,9 +1268,8 @@
     "street": "Viale Mazzini",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5387633",
-    "longitude": "9.9317182",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.9317182, 45.5387633] }
   },
   {
     "state": "Lombardia",
@@ -1383,12 +1277,11 @@
     "postalcode": 25015,
     "county": "Bs",
     "name": "Azienda Ospedaliera Di Desenzano Del Garda",
-    "street": "Via Monte Croce",
-    "email": " 1",
+    "street": "Via Monte Croce 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4695411",
-    "longitude": "10.5260713",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.5260713, 45.4695411] }
   },
   {
     "state": "Lombardia",
@@ -1396,12 +1289,11 @@
     "postalcode": 25025,
     "county": "Bs",
     "name": "Ospedale Di Manerbio",
-    "street": "Lungomella Valsecchi",
-    "email": " 2",
+    "street": "Lungomella Valsecchi 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.355777",
-    "longitude": "10.13517",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.13517, 45.355777] }
   },
   {
     "state": "Lombardia",
@@ -1412,9 +1304,8 @@
     "street": "Via Ravona",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.8020103",
-    "longitude": "9.0404433",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.0404433, 45.8020103] }
   },
   {
     "state": "Lombardia",
@@ -1422,12 +1313,11 @@
     "postalcode": 22100,
     "county": "Co",
     "name": "Osp. Valduce (privato)",
-    "street": "Via Dante Alighieri",
-    "email": " 11",
+    "street": "Via Dante Alighieri 11",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.811802",
-    "longitude": "9.0856821",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.0856821, 45.811802] }
   },
   {
     "state": "Lombardia",
@@ -1435,12 +1325,11 @@
     "postalcode": 26041,
     "county": "Cr",
     "name": "Ospedale Di Oglio Po",
-    "street": "Via Staffolo",
-    "email": " 51",
+    "street": "Via Staffolo 51",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.974574",
-    "longitude": "10.4596895",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.4596895, 44.974574] }
   },
   {
     "state": "Lombardia",
@@ -1448,12 +1337,11 @@
     "postalcode": 26013,
     "county": "Cr",
     "name": "Ospedale Maggiore",
-    "street": "Via Macallè",
-    "email": " 14",
+    "street": "Via Macallè 14",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.3546084",
-    "longitude": "9.6815899",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.6821263, 45.3463622] }
   },
   {
     "state": "Lombardia",
@@ -1461,12 +1349,11 @@
     "postalcode": 26100,
     "county": "Cr",
     "name": "Ospedale Civile Di Cremona",
-    "street": "Viale Concordia",
-    "email": " 1",
+    "street": "Viale Concordia 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.1289833",
-    "longitude": "10.0513623",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.0513623, 45.1289833] }
   },
   {
     "state": "Lombardia",
@@ -1474,12 +1361,11 @@
     "postalcode": 26900,
     "county": "Lo",
     "name": "Azienda Ospedaliera Della Provincia Di Lodi",
-    "street": "Viale Savoia",
-    "email": " 4",
+    "street": "Viale Savoia 4",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.3152168",
-    "longitude": "9.5106397",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.5106397, 45.3152168] }
   },
   {
     "state": "Lombardia",
@@ -1487,12 +1373,11 @@
     "postalcode": 20033,
     "county": "Mb",
     "name": "Asst Vimercate Ospedale Di Circolo",
-    "street": "Via Mazzini",
-    "email": " 1",
+    "street": "Via Mazzini 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.6264331",
-    "longitude": "9.1980925",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.19611647512958, 45.62648514999999] }
   },
   {
     "state": "Lombardia",
@@ -1500,12 +1385,11 @@
     "postalcode": 20052,
     "county": "Mb",
     "name": "Ospedale San Gerardo Nuovo",
-    "street": "Via Donizetti",
-    "email": " 116",
+    "street": "Via Donizetti 116",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.6337015",
-    "longitude": "9.2634641",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.2634641, 45.6337015] }
   },
   {
     "state": "Lombardia",
@@ -1513,12 +1397,11 @@
     "postalcode": 20092,
     "county": "Mi",
     "name": "Ospedale Bassini",
-    "street": "Via Gorki",
-    "email": " 50",
+    "street": "Via Gorki 50",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5511338",
-    "longitude": "9.2173344",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.2143166, 45.5560589] }
   },
   {
     "state": "Lombardia",
@@ -1526,12 +1409,11 @@
     "postalcode": 20020,
     "county": "Mi",
     "name": "Ospedale Guido Salvini",
-    "street": "Viale Forlanini",
-    "email": " 121",
+    "street": "Viale Forlanini 121",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5800414",
-    "longitude": "9.0622424",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.0963565, 45.5783114] }
   },
   {
     "state": "Lombardia",
@@ -1539,12 +1421,11 @@
     "postalcode": 20025,
     "county": "Mi",
     "name": "Ospedale Civile",
-    "street": "Via Candiani",
-    "email": " 2",
+    "street": "Via Candiani 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5946985",
-    "longitude": "8.9183595",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.9183595, 45.5946985] }
   },
   {
     "state": "Lombardia",
@@ -1552,12 +1433,11 @@
     "postalcode": 20010,
     "county": "Mi",
     "name": "Ospedale Fornaroli Di Magenta",
-    "street": "Via al Donatore di Sangue",
-    "email": " 50",
+    "street": "Via al Donatore di Sangue 50",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4681326",
-    "longitude": "8.892313",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.893602941438841, 45.47112835] }
   },
   {
     "state": "Lombardia",
@@ -1565,12 +1445,11 @@
     "postalcode": 20077,
     "county": "Mi",
     "name": "Presidio Ospedaliero",
-    "street": "Strada Pandina",
-    "email": " 1",
+    "street": "Strada Pandina 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.3597476",
-    "longitude": "9.3389615",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.34076372535244, 45.3582982] }
   },
   {
     "state": "Lombardia",
@@ -1578,12 +1457,11 @@
     "postalcode": 20066,
     "county": "Mi",
     "name": "Ospedale Santa Maria Delle Stelle",
-    "street": "Via Volontari del Sangue",
-    "email": " 5",
+    "street": "Via Volontari del Sangue 5",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5070405",
-    "longitude": "9.4273256",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.4276112, 45.5077088] }
   },
   {
     "state": "Lombardia",
@@ -1591,12 +1469,11 @@
     "postalcode": 20121,
     "county": "Mi",
     "name": "Ospedale Fatebenefratelli",
-    "street": "Corso Porta Nuova",
-    "email": " 23",
+    "street": "Corso Porta Nuova 23",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4731757",
-    "longitude": "9.1912441",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.1921552, 45.4789063] }
   },
   {
     "state": "Lombardia",
@@ -1604,12 +1481,11 @@
     "postalcode": 20122,
     "county": "Mi",
     "name": "Ospedale Maggiore Policlinico",
-    "street": "Via Francesco Sforza",
-    "email": " 35",
+    "street": "Via Francesco Sforza 35",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4608824",
-    "longitude": "9.1965662",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.1948123, 45.4590053] }
   },
   {
     "state": "Lombardia",
@@ -1617,12 +1493,11 @@
     "postalcode": 20123,
     "county": "Mi",
     "name": "Ospedale San Giuseppe",
-    "street": "Via San Vittore",
-    "email": " 12",
+    "street": "Via San Vittore 12",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4633218",
-    "longitude": "9.1704071",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.171898283668835, 45.4634845] }
   },
   {
     "state": "Lombardia",
@@ -1630,12 +1505,11 @@
     "postalcode": 20142,
     "county": "Mi",
     "name": "Ospedale San Paolo",
-    "street": "Via Rudinì",
-    "email": " 8",
+    "street": "Via Rudinì 8",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4335267",
-    "longitude": "9.1554898",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.1896346, 45.4641943] }
   },
   {
     "state": "Lombardia",
@@ -1643,12 +1517,11 @@
     "postalcode": 20141,
     "county": "Mi",
     "name": "Istituto Europeo Di Oncologia",
-    "street": "Via Ripamonti",
-    "email": " 435",
+    "street": "Via Ripamonti 435",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4356641",
-    "longitude": "9.1953765",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.1896346, 45.4641943] }
   },
   {
     "state": "Lombardia",
@@ -1656,12 +1529,11 @@
     "postalcode": 20132,
     "county": "Mi",
     "name": "Ospedale San Raffaele",
-    "street": "Via Olgettina",
-    "email": " 60",
+    "street": "Via Olgettina 60",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5109811",
-    "longitude": "9.2669908",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.2670046, 45.5097542] }
   },
   {
     "state": "Lombardia",
@@ -1669,12 +1541,11 @@
     "postalcode": 20157,
     "county": "Mi",
     "name": "Ospedale Sacco",
-    "street": "Via Giovanni Battista Grassi",
-    "email": " 74",
+    "street": "Via Giovanni Battista Grassi 74",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5120875",
-    "longitude": "9.1276458",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.1207543, 45.5168902] }
   },
   {
     "state": "Lombardia",
@@ -1682,12 +1553,11 @@
     "postalcode": 20162,
     "county": "Mi",
     "name": "Ospedale Niguarda",
-    "street": "Piazza Ospedale Maggiore",
-    "email": " 3",
+    "street": "Piazza Ospedale Maggiore 3",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5091226",
-    "longitude": "9.18909840223237",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.190207900577601, 45.5114869] }
   },
   {
     "state": "Lombardia",
@@ -1695,12 +1565,11 @@
     "postalcode": 20017,
     "county": "Mi",
     "name": "Ospedale Di Circolo",
-    "street": "Corso Europa",
-    "email": " 250",
+    "street": "Corso Europa 250",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5299387",
-    "longitude": "9.0457671",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.034371727539934, 45.5345181] }
   },
   {
     "state": "Lombardia",
@@ -1708,12 +1577,11 @@
     "postalcode": 20089,
     "county": "Mi",
     "name": "Istituto Clinico Humanitas",
-    "street": "Via Manzoni",
-    "email": " 56",
+    "street": "Via Manzoni 56",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.3715872",
-    "longitude": "9.1675917",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.1541309, 45.3832366] }
   },
   {
     "state": "Lombardia",
@@ -1724,9 +1592,8 @@
     "street": "Via Albertoni. 1",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.1983592",
-    "longitude": "10.5795359",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.5795359, 45.1983592] }
   },
   {
     "state": "Lombardia",
@@ -1734,12 +1601,11 @@
     "postalcode": 27100,
     "county": "Pv",
     "name": "Policlinico San Matteo",
-    "street": "Viale Camillo Golgi",
-    "email": " 19",
+    "street": "Viale Camillo Golgi 19",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.1957116",
-    "longitude": "9.1484139",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.1489552, 45.1961345] }
   },
   {
     "state": "Lombardia",
@@ -1747,12 +1613,11 @@
     "postalcode": 27029,
     "county": "Pv",
     "name": "Ospedale Civile",
-    "street": "Corso Milano",
-    "email": " 19",
+    "street": "Corso Milano 19",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.3209565",
-    "longitude": "8.8625367",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.8753049, 45.3253646] }
   },
   {
     "state": "Lombardia",
@@ -1760,12 +1625,11 @@
     "postalcode": 27058,
     "county": "Pv",
     "name": "Ospedale Civile",
-    "street": "Via Volturno",
-    "email": " 14",
+    "street": "Via Volturno 14",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.992159",
-    "longitude": "9.0136583",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.014579, 44.994727] }
   },
   {
     "state": "Lombardia",
@@ -1773,12 +1637,11 @@
     "postalcode": 23039,
     "county": "So",
     "name": "Azienda Ospedaliera Eugenio Morelli",
-    "street": "Via Zubiani",
-    "email": " 33",
+    "street": "Via Zubiani 33",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.3314021",
-    "longitude": "10.3269499",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.323546759689467, 46.33508114999999] }
   },
   {
     "state": "Lombardia",
@@ -1786,12 +1649,11 @@
     "postalcode": 23100,
     "county": "So",
     "name": "Azienda Ospedaliera Della Valtellina E Della Valchiavenna",
-    "street": "Via Nazario Sauro",
-    "email": " 22",
+    "street": "Via Nazario Sauro 22",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.1682204",
-    "longitude": "9.8736128",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.8736128, 46.1682204] }
   },
   {
     "state": "Lombardia",
@@ -1799,12 +1661,11 @@
     "postalcode": 21052,
     "county": "Va",
     "name": "Ospedale Di Circolo",
-    "street": "Via A. Da Brescia",
-    "email": " 1",
+    "street": "Via A. Da Brescia 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.6119057",
-    "longitude": "8.8520522",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.8520522, 45.6119057] }
   },
   {
     "state": "Lombardia",
@@ -1812,12 +1673,11 @@
     "postalcode": 21013,
     "county": "Va",
     "name": "Azienda Ospedaliera San Antonio Abate",
-    "street": "Via Pastori",
-    "email": " 4",
+    "street": "Via Pastori 4",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.6598951",
-    "longitude": "8.7932013",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.7932013, 45.6598951] }
   },
   {
     "state": "Lombardia",
@@ -1825,12 +1685,11 @@
     "postalcode": 21016,
     "county": "Va",
     "name": "Ospedale Luini Confalonieri",
-    "street": "Via Forlanini",
-    "email": " 6",
+    "street": "Via Forlanini 6",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.9989084",
-    "longitude": "8.739907",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.739907, 45.9989084] }
   },
   {
     "state": "Lombardia",
@@ -1838,12 +1697,11 @@
     "postalcode": 21018,
     "county": "Va",
     "name": "Ospedale Di Sesto Calende",
-    "street": "Largo C. Dell'Acqua",
-    "email": " 1",
+    "street": "Largo C. Dell'Acqua 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.7239553",
-    "longitude": "8.6343618",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.6343618, 45.7239553] }
   },
   {
     "state": "Lombardia",
@@ -1854,9 +1712,8 @@
     "street": "Piazza Zanaboni",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.7142931",
-    "longitude": "8.9041464",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.9041464, 45.7142931] }
   },
   {
     "state": "Lombardia",
@@ -1867,9 +1724,8 @@
     "street": "Viale L. Borri n.57",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.817549",
-    "longitude": "8.8263532",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.8263532, 45.817549] }
   },
   {
     "state": "Marche",
@@ -1880,9 +1736,8 @@
     "street": "Via Conca",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "43.6097021",
-    "longitude": "13.456616",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.456616, 43.6097021] }
   },
   {
     "state": "Marche",
@@ -1893,9 +1748,8 @@
     "street": "Via Aldo Moro",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "43.5219801",
-    "longitude": "13.2443764",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.2443764, 43.5219801] }
   },
   {
     "state": "Marche",
@@ -1903,12 +1757,11 @@
     "postalcode": 60019,
     "county": "An",
     "name": "Ospedale Civile",
-    "street": "Via Benvenuto Cellini",
-    "email": " 1",
+    "street": "Via Benvenuto Cellini 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.7142815",
-    "longitude": "13.2111428",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.2111428, 43.7142815] }
   },
   {
     "state": "Marche",
@@ -1916,12 +1769,11 @@
     "postalcode": 63100,
     "county": "Ap",
     "name": "Ospedale Mazzoni",
-    "street": "Via degli Iris",
-    "email": " 1",
+    "street": "Via degli Iris 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.8509389",
-    "longitude": "13.6179553",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.617944, 42.8504945] }
   },
   {
     "state": "Marche",
@@ -1929,12 +1781,11 @@
     "postalcode": 63039,
     "county": "Ap",
     "name": "Ospedale Madonna Del Soccorso",
-    "street": "Via Luciano Manara",
-    "email": " 7",
+    "street": "Via Luciano Manara 7",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.9490962",
-    "longitude": "13.8728838",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.8728838, 42.9490962] }
   },
   {
     "state": "Marche",
@@ -1942,12 +1793,11 @@
     "postalcode": 63900,
     "county": "Fm",
     "name": "Ospedale Augusto Murri",
-    "street": "Via Augusto Murri",
-    "email": " 15",
+    "street": "Via Augusto Murri 15",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.1611625",
-    "longitude": "13.7060742",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.7060742, 43.1611625] }
   },
   {
     "state": "Marche",
@@ -1958,9 +1808,8 @@
     "street": "Contrada San Domenico",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "43.3042647",
-    "longitude": "13.6741804",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.6741804, 43.3042647] }
   },
   {
     "state": "Molise",
@@ -1968,12 +1817,11 @@
     "postalcode": 62100,
     "county": "Mc",
     "name": "Ospedale Generale Provinciale Di Macerata",
-    "street": "Via Santa Lucia",
-    "email": " 2",
+    "street": "Via Santa Lucia 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.2936893",
-    "longitude": "13.4575652",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.4535897, 43.3007275] }
   },
   {
     "state": "Molise",
@@ -1981,12 +1829,11 @@
     "postalcode": 62024,
     "county": "Mc",
     "name": "Ospedale Enrico Mattei",
-    "street": "Viale Europa",
-    "email": " 16",
+    "street": "Viale Europa 16",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.2482991",
-    "longitude": "13.0078628",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.0078628, 43.2482991] }
   },
   {
     "state": "Molise",
@@ -1994,12 +1841,11 @@
     "postalcode": 61121,
     "county": "Pu",
     "name": "Presidio Ospedaliero San Salvatore",
-    "street": "Piazzale Carlo Cinelli",
-    "email": " 4",
+    "street": "Piazzale Carlo Cinelli 4",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.9084308",
-    "longitude": "12.9057317",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.9071655117071, 43.90741765] }
   },
   {
     "state": "Molise",
@@ -2007,12 +1853,11 @@
     "postalcode": 86100,
     "county": "Cb",
     "name": "Ospedale Univiversita' Cattolica Sacro Cuore",
-    "street": "L.go A. Gemelli",
-    "email": " 1 Contrada Tappino",
+    "street": "L.go A. Gemelli 1 Contrada Tappino",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.5597935",
-    "longitude": "14.6602725",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.6602725, 41.5597935] }
   },
   {
     "state": "Puglia",
@@ -2020,12 +1865,11 @@
     "postalcode": 71013,
     "county": "Fg",
     "name": "Ospedale Casa Sollievo Della Sofferenza",
-    "street": "Piazza dei Martiri",
-    "email": " 5",
+    "street": "Piazza dei Martiri 5",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.7069151",
-    "longitude": "15.727254771606534",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.727254771606534, 41.7069151] }
   },
   {
     "state": "Piemonte",
@@ -2033,12 +1877,11 @@
     "postalcode": 15011,
     "county": "Al",
     "name": "Ospedale Monsignor Giovanni Galliano",
-    "street": "Via Fatebenefratelli",
-    "email": " 1",
+    "street": "Via Fatebenefratelli 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.6820462",
-    "longitude": "8.4527746",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.45078138323073, 44.68022435] }
   },
   {
     "state": "Piemonte",
@@ -2046,12 +1889,11 @@
     "postalcode": 15100,
     "county": "Al",
     "name": "Azienda Ospedaliera Nazionale Ss. Antonio E Biagio E Cesare Arrigo",
-    "street": "Via Venezia",
-    "email": " 16",
+    "street": "Via Venezia 16",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.9153893",
-    "longitude": "8.6203714",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.6203714, 44.9153893] }
   },
   {
     "state": "Piemonte",
@@ -2059,12 +1901,11 @@
     "postalcode": 15033,
     "county": "Al",
     "name": "Ospedale Santo Spirito",
-    "street": "Viale Giovanni Giolitti",
-    "email": 2,
+    "street": "Viale Giovanni Giolitti2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.1214935",
-    "longitude": "8.4508027",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.4498127, 45.1362661] }
   },
   {
     "state": "Piemonte",
@@ -2072,12 +1913,11 @@
     "postalcode": 15053,
     "county": "Al",
     "name": "Distretto Asl",
-    "street": "Piazza Vittorio Veneto",
-    "email": " 15",
+    "street": "Piazza Vittorio Veneto 15",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.9829114",
-    "longitude": "8.8819422",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.8803561, 44.9802488] }
   },
   {
     "state": "Piemonte",
@@ -2085,12 +1925,11 @@
     "postalcode": 15067,
     "county": "Al",
     "name": "Ospedale San Giacomo",
-    "street": "Via Edilio Raggio",
-    "email": " 13",
+    "street": "Via Edilio Raggio 13",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.7583828",
-    "longitude": "8.7940404",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.7940404, 44.7583828] }
   },
   {
     "state": "Piemonte",
@@ -2098,12 +1937,11 @@
     "postalcode": 15057,
     "county": "Al",
     "name": "Ospedale Civile Ss Antonio E Margherita",
-    "street": "Piazza Felice Cavallotti",
-    "email": " 7",
+    "street": "Piazza Felice Cavallotti 7",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.8937542",
-    "longitude": "8.8626024",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.8626024, 44.8937542] }
   },
   {
     "state": "Piemonte",
@@ -2111,12 +1949,11 @@
     "postalcode": 14100,
     "county": "At",
     "name": "Ospedale Cardinal Massaia",
-    "street": "Via Conte Verde",
-    "email": " 125",
+    "street": "Via Conte Verde 125",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.9040922",
-    "longitude": "8.1990288",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.1990288, 44.9040922] }
   },
   {
     "state": "Piemonte",
@@ -2124,12 +1961,11 @@
     "postalcode": 13900,
     "county": "Bi",
     "name": "Ospedale Nuovo Degli Infermi",
-    "street": "Via Dei Ponderanesi",
-    "email": " 2",
+    "street": "Via Dei Ponderanesi 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5448615",
-    "longitude": "8.0601548",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.0624296, 45.5439946] }
   },
   {
     "state": "Piemonte",
@@ -2137,12 +1973,11 @@
     "postalcode": 12050,
     "county": "Cn",
     "name": "Ospedale San Lazzaro",
-    "street": "Via Pietrino Belli",
-    "email": " 26",
+    "street": "Via Pietrino Belli 26",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.6992665",
-    "longitude": "8.0331254",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.03093310906554, 44.699614249999996] }
   },
   {
     "state": "Piemonte",
@@ -2150,12 +1985,11 @@
     "postalcode": 12100,
     "county": "Cn",
     "name": "Distretto Asl Cn 1",
-    "street": "Corso Francia",
-    "email": " 10",
+    "street": "Corso Francia 10",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.376874",
-    "longitude": "7.5349315",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.531546884061208, 44.37606805] }
   },
   {
     "state": "Piemonte",
@@ -2163,12 +1997,11 @@
     "postalcode": 12100,
     "county": "Cn",
     "name": "Ospedale Santa Croce E Carle",
-    "street": "Via Michele Coppino",
-    "email": " 26",
+    "street": "Via Michele Coppino 26",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.3838873",
-    "longitude": "7.5378494",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.537054211756528, 44.385316700000004] }
   },
   {
     "state": "Piemonte",
@@ -2176,12 +2009,11 @@
     "postalcode": 12045,
     "county": "Cn",
     "name": "Ospedale Ss Trinita'",
-    "street": "Via Ospedale Maggiore",
-    "email": " 4",
+    "street": "Via Ospedale Maggiore 4",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.5493489",
-    "longitude": "7.7250155",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.7250155, 44.5493489] }
   },
   {
     "state": "Piemonte",
@@ -2189,12 +2021,11 @@
     "postalcode": 12084,
     "county": "Cn",
     "name": "Nuovo Ospedale Regina Montis Regalis Mondovi'",
-    "street": "Via S. Rocchetto",
-    "email": " 99",
+    "street": "Via S. Rocchetto 99",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.3955849",
-    "longitude": "7.8130924",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.8020432681236676, 44.39076935] }
   },
   {
     "state": "Piemonte",
@@ -2202,12 +2033,11 @@
     "postalcode": 12037,
     "county": "Cn",
     "name": "Ospedale Civile Di Saluzzo",
-    "street": "Via Spielberg",
-    "email": " 58",
+    "street": "Via Spielberg 58",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.6418962",
-    "longitude": "7.495877",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.495877, 44.6418962] }
   },
   {
     "state": "Piemonte",
@@ -2215,12 +2045,11 @@
     "postalcode": 12038,
     "county": "Cn",
     "name": "Ospedale Ss Annunziata",
-    "street": "Via Ospedali",
-    "email": " 14",
+    "street": "Via Ospedali 14",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.6435359",
-    "longitude": "7.6605167",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.6605167, 44.6435359] }
   },
   {
     "state": "Piemonte",
@@ -2228,12 +2057,11 @@
     "postalcode": 28041,
     "county": "No",
     "name": "Ospedale Ss Trinità",
-    "street": "Viale Zoppis",
-    "email": " 10",
+    "street": "Viale Zoppis 10",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.704613",
-    "longitude": "8.4583215",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.459387900293626, 45.704564250000004] }
   },
   {
     "state": "Piemonte",
@@ -2241,12 +2069,11 @@
     "postalcode": 28100,
     "county": "No",
     "name": "Ospedale Maggiore Della Carita'",
-    "street": "Corso Giuseppe Mazzini",
-    "email": " 18",
+    "street": "Corso Giuseppe Mazzini 18",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4448697",
-    "longitude": "8.6221877",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.6221877, 45.4448697] }
   },
   {
     "state": "Piemonte",
@@ -2254,12 +2081,11 @@
     "postalcode": 10060,
     "county": "To",
     "name": "Ircc Candiolo",
-    "street": "Strada Provinciale",
-    "email": "142 KM 3",
+    "street": "Strada Provinciale142 KM 3",
+    "email": "",
     "domainIdentifier": "95",
-    "latitude": "44.959244",
-    "longitude": "7.601722",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.601722, 44.959244] }
   },
   {
     "state": "Piemonte",
@@ -2267,12 +2093,11 @@
     "postalcode": 10024,
     "county": "To",
     "name": "Ospedale San Lorenzo",
-    "street": "Via Ospedale",
-    "email": " 13",
+    "street": "Via Ospedale 13",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.8464611",
-    "longitude": "7.716431",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.715868792968453, 44.8467884] }
   },
   {
     "state": "Piemonte",
@@ -2280,12 +2105,11 @@
     "postalcode": 10034,
     "county": "To",
     "name": "Ospedale Di Chivasso",
-    "street": "Corso Galileo Ferraris",
-    "email": " 3",
+    "street": "Corso Galileo Ferraris 3",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.1933504",
-    "longitude": "7.904797",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.904797, 45.1933504] }
   },
   {
     "state": "Piemonte",
@@ -2293,12 +2117,11 @@
     "postalcode": 10073,
     "county": "To",
     "name": "Ospedale Di Ciriè",
-    "street": "Via Battitore",
-    "email": " 7/9",
+    "street": "Via Battitore 7/9",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.2310244",
-    "longitude": "7.5922518",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.5922518, 45.2310244] }
   },
   {
     "state": "Piemonte",
@@ -2306,12 +2129,11 @@
     "postalcode": 10082,
     "county": "To",
     "name": "Ospedale Civile",
-    "street": "Piazza Mussatti",
-    "email": " 5",
+    "street": "Piazza Mussatti 5",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.3873876",
-    "longitude": "7.6497694",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.6497694, 45.3873876] }
   },
   {
     "state": "Piemonte",
@@ -2319,12 +2141,11 @@
     "postalcode": 10015,
     "county": "To",
     "name": "Polambulatori Asl",
-    "street": "Via Nathalia Ginsburg",
-    "email": " 7",
+    "street": "Via Nathalia Ginsburg 7",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4673791",
-    "longitude": "7.874797",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.874797, 45.4673791] }
   },
   {
     "state": "Piemonte",
@@ -2332,12 +2153,11 @@
     "postalcode": 10043,
     "county": "To",
     "name": "Azienda Ospedaliera San Luigi",
-    "street": "Regione Gonzole",
-    "email": " 10",
+    "street": "Regione Gonzole 10",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.02735",
-    "longitude": "7.5597122",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.5571538, 45.0294529] }
   },
   {
     "state": "Piemonte",
@@ -2345,12 +2165,11 @@
     "postalcode": 10064,
     "county": "To",
     "name": "Ospedale Edoardo Agnelli",
-    "street": "Via Brigata Cagliari",
-    "email": " 39",
+    "street": "Via Brigata Cagliari 39",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "44.8818261",
-    "longitude": "7.322951",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.319631936707233, 44.88270285] }
   },
   {
     "state": "Piemonte",
@@ -2358,12 +2177,11 @@
     "postalcode": 10090,
     "county": "To",
     "name": "Ospedale Di Rivoli",
-    "street": "Via Rivalta",
-    "email": " 29",
+    "street": "Via Rivalta 29",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.06024825",
-    "longitude": "7.518755585677209",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.518755585677209, 45.06024825] }
   },
   {
     "state": "Piemonte",
@@ -2371,12 +2189,11 @@
     "postalcode": 10126,
     "county": "To",
     "name": "Azienda Ospedaliera Molinette",
-    "street": "Corso Bramante",
-    "email": " 88",
+    "street": "Corso Bramante 88",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.0423656",
-    "longitude": "7.6725886",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.6745153, 45.0416061] }
   },
   {
     "state": "Piemonte",
@@ -2384,12 +2201,11 @@
     "postalcode": 10128,
     "county": "To",
     "name": "Azienda Ospedaliera Ordine Mauriziano",
-    "street": "Largo Filippo Turati",
-    "email": " 62",
+    "street": "Largo Filippo Turati 62",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.0499429",
-    "longitude": "7.6661753",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.6656893, 45.0504856] }
   },
   {
     "state": "Piemonte",
@@ -2400,9 +2216,8 @@
     "street": "Via Botticelli",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.1027058",
-    "longitude": "7.7064986",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.7064986, 45.1027058] }
   },
   {
     "state": "Piemonte",
@@ -2410,12 +2225,11 @@
     "postalcode": 10126,
     "county": "To",
     "name": "Ospedale C.t.o",
-    "street": "Via Zuretti",
-    "email": " 29",
+    "street": "Via Zuretti 29",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.0344195",
-    "longitude": "7.6739353",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.6739743, 45.0336035] }
   },
   {
     "state": "Piemonte",
@@ -2423,12 +2237,11 @@
     "postalcode": 10141,
     "county": "To",
     "name": "Ospedale Martini",
-    "street": "Via Tofane",
-    "email": " 71",
+    "street": "Via Tofane 71",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.0658849",
-    "longitude": "7.6341741",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.6285518, 45.0670007] }
   },
   {
     "state": "Piemonte",
@@ -2436,12 +2249,11 @@
     "postalcode": 10131,
     "county": "To",
     "name": "Ospedale Gradenigo",
-    "street": "Corso Regina Margherita",
-    "email": " 10/A",
+    "street": "Corso Regina Margherita 10/A",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.0688557",
-    "longitude": "7.7070738",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.7055467, 45.0696941] }
   },
   {
     "state": "Piemonte",
@@ -2449,12 +2261,11 @@
     "postalcode": 10144,
     "county": "To",
     "name": "Ospedale Maria Vittoria",
-    "street": "Via Cibrario",
-    "email": " 72",
+    "street": "Via Cibrario 72",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.0786805",
-    "longitude": "7.6638147",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.6563435, 45.0814237] }
   },
   {
     "state": "Piemonte",
@@ -2462,12 +2273,11 @@
     "postalcode": 28845,
     "county": "Vb",
     "name": "Ospedale San Biagio",
-    "street": "Piazza Vittime Lager Nazifascisti",
-    "email": " 1",
+    "street": "Piazza Vittime Lager Nazifascisti 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.1152451",
-    "longitude": "8.2920459",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.2920459, 46.1152451] }
   },
   {
     "state": "Piemonte",
@@ -2478,9 +2288,8 @@
     "street": "Via Crocetta",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.9276523",
-    "longitude": "8.549937",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.549937, 45.9276523] }
   },
   {
     "state": "Piemonte",
@@ -2488,12 +2297,11 @@
     "postalcode": 13011,
     "county": "Vc",
     "name": "Ospedale Ss Pietro E Paolo",
-    "street": "Piazzale Lora",
-    "email": " 1",
+    "street": "Piazzale Lora 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.7166676",
-    "longitude": "8.2768572",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.2768572, 45.7166676] }
   },
   {
     "state": "Piemonte",
@@ -2501,12 +2309,11 @@
     "postalcode": 13100,
     "county": "Vc",
     "name": "Ospedale San Andrea",
-    "street": "Corso Mario Abbiate",
-    "email": " 21",
+    "street": "Corso Mario Abbiate 21",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.3185843",
-    "longitude": "8.4148103",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.414003273726372, 45.3170394] }
   },
   {
     "state": "Puglia",
@@ -2514,12 +2321,11 @@
     "postalcode": 70124,
     "county": "Ba",
     "name": "Azienda Ospedaliera Policlinico Consorziale",
-    "street": "Piazza Giulio Cesare",
-    "email": " 11",
+    "street": "Piazza Giulio Cesare 11",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.1122564",
-    "longitude": "16.862990943418502",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [16.859359457751868, 41.111453749999995] }
   },
   {
     "state": "Puglia",
@@ -2530,9 +2336,8 @@
     "street": "SS 96 Altamura",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.8285595",
-    "longitude": "16.5527314",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [16.5527314, 40.8285595] }
   },
   {
     "state": "Puglia",
@@ -2540,12 +2345,11 @@
     "postalcode": 72100,
     "county": "Br",
     "name": "Aziensa Ospedaliera Di Summa-perrino",
-    "street": "Piazza Di Summa",
-    "email": " 111",
+    "street": "Piazza Di Summa 111",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "40.6364573",
-    "longitude": "17.9325791",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [17.9325791, 40.6364573] }
   },
   {
     "state": "Puglia",
@@ -2556,9 +2360,8 @@
     "street": "SS 7 per Mesagne",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.6395295",
-    "longitude": "17.945526",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [17.945526, 40.6395295] }
   },
   {
     "state": "Puglia",
@@ -2569,9 +2372,8 @@
     "street": "Via Maria delle Grazie",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.5301622",
-    "longitude": "17.5826774",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [17.5826774, 40.5301622] }
   },
   {
     "state": "Puglia",
@@ -2582,9 +2384,8 @@
     "street": "Via Istria",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "41.2713029",
-    "longitude": "16.4231003",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [16.4231003, 41.2713029] }
   },
   {
     "state": "Puglia",
@@ -2592,12 +2393,11 @@
     "postalcode": 73043,
     "county": "Le",
     "name": "Ospedale San Giuseppe Da Copertino",
-    "street": "Via Carmiano",
-    "email": " 1",
+    "street": "Via Carmiano 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "40.2716808",
-    "longitude": "18.0502517",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [18.0502517, 40.2716808] }
   },
   {
     "state": "Puglia",
@@ -2605,12 +2405,11 @@
     "postalcode": 73100,
     "county": "Le",
     "name": "Ospedale Vecchio Vito Fazzi",
-    "street": "Piazza Bottazzi",
-    "email": "1",
+    "street": "Piazza Bottazzi1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "40.34510915",
-    "longitude": "18.17696999727974",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [18.1718482, 40.3570373] }
   },
   {
     "state": "Puglia",
@@ -2621,9 +2420,8 @@
     "street": "Via Maglie",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.091623",
-    "longitude": "18.299629",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [18.299629, 40.091623] }
   },
   {
     "state": "Puglia",
@@ -2634,9 +2432,8 @@
     "street": "Via Pio X",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "39.9362657",
-    "longitude": "18.3556151",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [18.3556151, 39.9362657] }
   },
   {
     "state": "Puglia",
@@ -2644,12 +2441,11 @@
     "postalcode": 71013,
     "county": "Fg",
     "name": "Ospedale Casa Sollievo Della Sofferenza",
-    "street": "Piazza dei Martiri",
-    "email": " 5",
+    "street": "Piazza dei Martiri 5",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "41.7069151",
-    "longitude": "15.727254771606534",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.727254771606534, 41.7069151] }
   },
   {
     "state": "Puglia",
@@ -2657,12 +2453,11 @@
     "postalcode": 74024,
     "county": "Ta",
     "name": "Ospedale Giannuzzi",
-    "street": "Via Mandonion",
-    "email": " 1",
+    "street": "Via Mandonion 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "40.4031931",
-    "longitude": "17.639525",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [17.639525, 40.4031931] }
   },
   {
     "state": "Puglia",
@@ -2670,12 +2465,11 @@
     "postalcode": 74015,
     "county": "Ta",
     "name": "Ospedale Valle D'itria",
-    "street": "Piazza San Francesco da Paola",
-    "email": " 1",
+    "street": "Piazza San Francesco da Paola 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "40.7051791",
-    "longitude": "17.3430903",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [17.3430903, 40.7051791] }
   },
   {
     "state": "Puglia",
@@ -2683,12 +2477,11 @@
     "postalcode": 74100,
     "county": "Ta",
     "name": "Presidio Ospedaliero Ss Annunziata",
-    "street": "Via F. Bruno",
-    "email": " 1",
+    "street": "Via F. Bruno 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "40.4712427",
-    "longitude": "17.2432278",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [17.2432278, 40.4712427] }
   },
   {
     "state": "Sardegna",
@@ -2696,12 +2489,11 @@
     "postalcode": 9121,
     "county": "Ca",
     "name": "Ospedale Oncologico Armando Businco",
-    "street": "Via Edward Jenner",
-    "email": " 1",
+    "street": "Via Edward Jenner 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "39.2477036",
-    "longitude": "9.1145869",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.1132355, 39.2472295] }
   },
   {
     "state": "Sardegna",
@@ -2709,12 +2501,11 @@
     "postalcode": 9123,
     "county": "Ca",
     "name": "Ospedale Ss. Trinità",
-    "street": "Via Is Mirrionis",
-    "email": " 92",
+    "street": "Via Is Mirrionis 92",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "39.2345849",
-    "longitude": "9.1104474",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.1078481, 39.23605] }
   },
   {
     "state": "Sardegna",
@@ -2722,12 +2513,11 @@
     "postalcode": 9042,
     "county": "Ca",
     "name": "Policlinico Universitario Di Monserrato",
-    "street": "SS 554 km 4",
-    "email": "5 Sestu",
+    "street": "SS 554 km 45 Sestu",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "39.2539413",
-    "longitude": "9.1432062",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.1432062, 39.2539413] }
   },
   {
     "state": "Sardegna",
@@ -2738,9 +2528,8 @@
     "street": "Via Ospedale",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "",
-    "longitude": "",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.397, 40.283] }
   },
   {
     "state": "Sardegna",
@@ -2748,12 +2537,11 @@
     "postalcode": 8100,
     "county": "Nu",
     "name": "Ospedale San Francesco",
-    "street": "Via Mannironi",
-    "email": " 1",
+    "street": "Via Mannironi 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "40.2839892",
-    "longitude": "9.3975638",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.3975638, 40.2839892] }
   },
   {
     "state": "Sardegna",
@@ -2764,9 +2552,8 @@
     "street": "Via Rockfeller",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "39.8789012",
-    "longitude": "8.6089505",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.6089505, 39.8789012] }
   },
   {
     "state": "Sardegna",
@@ -2777,9 +2564,8 @@
     "street": "Via Bazzoni - Sircana",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.9141218",
-    "longitude": "9.4767501",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [9.4767501, 40.9141218] }
   },
   {
     "state": "Sardegna",
@@ -2790,9 +2576,8 @@
     "street": "Via Don Minzoni",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.5821219",
-    "longitude": "8.3179568",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.3179568, 40.5821219] }
   },
   {
     "state": "Sardegna",
@@ -2803,9 +2588,8 @@
     "street": "Viale S. Pietro 43",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.7215015",
-    "longitude": "8.5535382",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.5535382, 40.7215015] }
   },
   {
     "state": "Sardegna",
@@ -2816,9 +2600,8 @@
     "street": "Viale Italia",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "40.7185816",
-    "longitude": "8.5559529",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [8.5559529, 40.7185816] }
   },
   {
     "state": "Sicilia",
@@ -2829,9 +2612,8 @@
     "street": "Contrada Consolida - San Michele",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "37.3122991",
-    "longitude": "13.57465",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.57465, 37.3122991] }
   },
   {
     "state": "Sicilia",
@@ -2839,12 +2621,11 @@
     "postalcode": 95033,
     "county": "Ct",
     "name": "Ospedale Maria Ss Annunziata",
-    "street": "Via Cristoforo Colombo",
-    "email": " 77",
+    "street": "Via Cristoforo Colombo 77",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "37.6420136",
-    "longitude": "14.8740699",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.8740699, 37.6420136] }
   },
   {
     "state": "Sicilia",
@@ -2852,12 +2633,11 @@
     "postalcode": 95124,
     "county": "Ct",
     "name": "Azienda Ospedaliera Vittorio Emanuele",
-    "street": "Via Plebiscito",
-    "email": " 624",
+    "street": "Via Plebiscito 624",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "37.5069697",
-    "longitude": "15.0823448",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.0823448, 37.5069697] }
   },
   {
     "state": "Sicilia",
@@ -2865,12 +2645,11 @@
     "postalcode": 95123,
     "county": "Ct",
     "name": "Policlinico Universitario Rodolico",
-    "street": "Via Santa Sofia",
-    "email": " 78",
+    "street": "Via Santa Sofia 78",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "37.5237139",
-    "longitude": "15.0698989",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.0688537, 37.52961] }
   },
   {
     "state": "Sicilia",
@@ -2878,12 +2657,11 @@
     "postalcode": 95124,
     "county": "Ct",
     "name": "Ospedale Garibaldi Centro",
-    "street": "Piazza Santa Maria di Gesù",
-    "email": " 5",
+    "street": "Piazza Santa Maria di Gesù 5",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "37.51228965",
-    "longitude": "15.078567278797935",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.078567278797935, 37.51228965] }
   },
   {
     "state": "Sicilia",
@@ -2891,12 +2669,11 @@
     "postalcode": 95122,
     "county": "Ct",
     "name": "Osp Garibaldi Nesima",
-    "street": "Via Palermo",
-    "email": " 636",
+    "street": "Via Palermo 636",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "37.7196529",
-    "longitude": "15.1579192",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.0418814, 37.5113346] }
   },
   {
     "state": "Sicilia",
@@ -2904,12 +2681,11 @@
     "postalcode": 95126,
     "county": "Ct",
     "name": "Ospedale Cannizzaro",
-    "street": "Via Messina",
-    "email": " 829",
+    "street": "Via Messina 829",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "37.6160132",
-    "longitude": "14.8883503",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.1205158, 37.5410119] }
   },
   {
     "state": "Sicilia",
@@ -2920,9 +2696,8 @@
     "street": "Via Trieste",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "37.5664963",
-    "longitude": "14.2739855",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.2739855, 37.5664963] }
   },
   {
     "state": "Sicilia",
@@ -2933,9 +2708,8 @@
     "street": "Via Consolare Valeria",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "38.1619304",
-    "longitude": "15.5375834",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.5375834, 38.1619304] }
   },
   {
     "state": "Sicilia",
@@ -2946,9 +2720,8 @@
     "street": "Contrada Papardo",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "38.1937571",
-    "longitude": "15.5542082",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.5542082, 38.1937571] }
   },
   {
     "state": "Sicilia",
@@ -2959,9 +2732,8 @@
     "street": "Viale Giostra 73",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "38.2163557",
-    "longitude": "15.5349874",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.5349874, 38.2163557] }
   },
   {
     "state": "Sicilia",
@@ -2972,9 +2744,8 @@
     "street": "Contrada Villaggio Grazia",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "38.22007755",
-    "longitude": "15.2380053023035",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.2380053023035, 38.22007755] }
   },
   {
     "state": "Sicilia",
@@ -2985,9 +2756,8 @@
     "street": "Contrda Pietra Pollastri",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "37.994333600000004",
-    "longitude": "14.04143893057973",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [14.04143893057973, 37.994333600000004] }
   },
   {
     "state": "Sicilia",
@@ -2995,25 +2765,23 @@
     "postalcode": 90146,
     "county": "Pa",
     "name": "Ospedali Riuniti Villa Sofia-cervello (presidio Cervello)",
-    "street": "Via Trabucco",
-    "email": " 180",
+    "street": "Via Trabucco 180",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "38.1547942",
-    "longitude": "13.3170544",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.3170544, 38.1547942] }
   },
   {
     "state": "Sicilia",
     "town": "Palermo",
     "postalcode": 90127,
     "county": "Pa",
-    "name": "Ospedale Civico ",
+    "name": "Ospedale Civico",
     "street": "---",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "38.1153312",
-    "longitude": "13.3678144",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.3678144, 38.1153312] }
   },
   {
     "state": "Sicilia",
@@ -3024,9 +2792,8 @@
     "street": "Piazza Nicola Leotta",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "38.1112268",
-    "longitude": "13.3524434",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.3524434, 38.1112268] }
   },
   {
     "state": "Sicilia",
@@ -3034,12 +2801,11 @@
     "postalcode": 90127,
     "county": "Pa",
     "name": "Ospedale Policlinico",
-    "street": "Via Del Vespro",
-    "email": " 129",
+    "street": "Via Del Vespro 129",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "38.1041882",
-    "longitude": "13.3627699",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.3627699, 38.1041882] }
   },
   {
     "state": "Sicilia",
@@ -3047,12 +2813,11 @@
     "postalcode": 90146,
     "county": "Pa",
     "name": "Ospedali Riuniti Villa Sofia-cervello (presidio Villa Sofia)",
-    "street": "Piazza Salerno",
-    "email": 1,
+    "street": "Piazza Salerno1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "38.1112268",
-    "longitude": "13.3524434",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.3524434, 38.1112268] }
   },
   {
     "state": "Sicilia",
@@ -3060,12 +2825,11 @@
     "postalcode": 90100,
     "county": "Pa",
     "name": "Ospedali Riuniti Villa Sofia-cervello (presidio Villa Sofia)",
-    "street": "Piazza Salerno",
-    "email": 1,
+    "street": "Piazza Salerno1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "38.1112268",
-    "longitude": "13.3524434",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [13.3524434, 38.1112268] }
   },
   {
     "state": "Sicilia",
@@ -3073,12 +2837,11 @@
     "postalcode": 96100,
     "county": "Sr",
     "name": "Ospedale Umberto I",
-    "street": "Via Testaferrata",
-    "email": " 1",
+    "street": "Via Testaferrata 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "37.0734278",
-    "longitude": "15.2851625",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [15.2827217, 37.0731548] }
   },
   {
     "state": "Sicilia",
@@ -3089,9 +2852,8 @@
     "street": "Via Marinella",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "37.6664459",
-    "longitude": "12.8023328",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.8023328, 37.6664459] }
   },
   {
     "state": "Toscana",
@@ -3102,9 +2864,8 @@
     "street": "Via Pietro Nenni",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "43.4619881",
-    "longitude": "11.8639845",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.8639845, 43.4619881] }
   },
   {
     "state": "Toscana",
@@ -3115,9 +2876,8 @@
     "street": "Via Rossini",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "43.8216342",
-    "longitude": "11.1366776",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.1366776, 43.8216342] }
   },
   {
     "state": "Toscana",
@@ -3125,12 +2885,11 @@
     "postalcode": 50053,
     "county": "Fi",
     "name": "Ospedale San Giuseppe",
-    "street": "Viale Giovanni Boccaccio",
-    "email": " 20",
+    "street": "Viale Giovanni Boccaccio 20",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.7206887",
-    "longitude": "10.936679",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.936679, 43.7206887] }
   },
   {
     "state": "Toscana",
@@ -3138,12 +2897,11 @@
     "postalcode": 50134,
     "county": "Fi",
     "name": "Azienda Ospedaliera Careggi",
-    "street": "Largo Brambilla",
-    "email": " 3",
+    "street": "Largo Brambilla 3",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.8031274",
-    "longitude": "11.2468719",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.2483906112013, 43.808296999999996] }
   },
   {
     "state": "Toscana",
@@ -3151,12 +2909,11 @@
     "postalcode": 50139,
     "county": "Fi",
     "name": "Ospedale Pediatrico Meyer",
-    "street": "Viale Gaetano Pieraccini",
-    "email": " 24",
+    "street": "Viale Gaetano Pieraccini 24",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.8079496",
-    "longitude": "11.2505399",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.2528217, 43.8108032] }
   },
   {
     "state": "Toscana",
@@ -3164,12 +2921,11 @@
     "postalcode": 50011,
     "county": "Fi",
     "name": "Ospedale Santa Maria Annunziata",
-    "street": "Via Dell'Antella",
-    "email": " 58",
+    "street": "Via Dell'Antella 58",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.7316125",
-    "longitude": "11.310159",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.3090328, 43.7316387] }
   },
   {
     "state": "Toscana",
@@ -3180,9 +2936,8 @@
     "street": "Via Antonio Vivaldi",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "43.7610141",
-    "longitude": "11.1794673",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.1794673, 43.7610141] }
   },
   {
     "state": "Toscana",
@@ -3190,12 +2945,11 @@
     "postalcode": 58100,
     "county": "Gr",
     "name": "Ospedale Della Misericordia",
-    "street": "Via Senese",
-    "email": " 161",
+    "street": "Via Senese 161",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.7661463",
-    "longitude": "11.1175501",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.1175501, 42.7661463] }
   },
   {
     "state": "Toscana",
@@ -3206,9 +2960,8 @@
     "street": "Via Montanara",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "43.3136995",
-    "longitude": "10.5213741",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.5213741, 43.3136995] }
   },
   {
     "state": "Toscana",
@@ -3216,12 +2969,11 @@
     "postalcode": 57124,
     "county": "Li",
     "name": "Presidio Ospedaliero Di Livorno",
-    "street": "Viale Vittorio Alfieri",
-    "email": " 18",
+    "street": "Viale Vittorio Alfieri 18",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.548716",
-    "longitude": "10.3275808",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.32697, 43.5531984] }
   },
   {
     "state": "Toscana",
@@ -3229,12 +2981,11 @@
     "postalcode": 57025,
     "county": "Li",
     "name": "Ospedale Villamarina Di Piombino",
-    "street": "Via Forlanini",
-    "email": " 24",
+    "street": "Via Forlanini 24",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "42.940514449999995",
-    "longitude": "10.512504752315156",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.5268192, 42.9231662] }
   },
   {
     "state": "Toscana",
@@ -3242,12 +2993,11 @@
     "postalcode": 55032,
     "county": "Lu",
     "name": "Ospedale Di Castelnuovo Garfagna",
-    "street": "Via dell'Ospedale",
-    "email": " 3",
+    "street": "Via dell'Ospedale 3",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "",
-    "longitude": "",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.5125, 42.94051] }
   },
   {
     "state": "Toscana",
@@ -3255,12 +3005,11 @@
     "postalcode": 55043,
     "county": "Lu",
     "name": "Ospedale Della Versilia",
-    "street": "Via Aurelia",
-    "email": " 335",
+    "street": "Via Aurelia 335",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.8948357",
-    "longitude": "10.2302866",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.2302866, 43.8948357] }
   },
   {
     "state": "Toscana",
@@ -3269,11 +3018,10 @@
     "county": "Lu",
     "name": "Via Ospedale",
     "street": "1 Località Campo di Marte",
-    "email": " ",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.8428381",
-    "longitude": "10.502876",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.502876, 43.8428381] }
   },
   {
     "state": "Toscana",
@@ -3284,9 +3032,8 @@
     "street": "Piazza Sacco e Vanzetti",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "44.0800362",
-    "longitude": "10.1031867",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.1031867, 44.0800362] }
   },
   {
     "state": "Toscana",
@@ -3294,12 +3041,11 @@
     "postalcode": 56127,
     "county": "Pi",
     "name": "Azienda Ospedaliera Pisana Policlinico Cisanello",
-    "street": "Via Paradisa",
-    "email": " 2",
+    "street": "Via Paradisa 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.7109299",
-    "longitude": "10.4358391",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.4358391, 43.7109299] }
   },
   {
     "state": "Toscana",
@@ -3307,12 +3053,11 @@
     "postalcode": 56025,
     "county": "Pi",
     "name": "Ospedale Lotti",
-    "street": "Via Roma",
-    "email": " 147",
+    "street": "Via Roma 147",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.660963",
-    "longitude": "10.6338782",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.6338782, 43.660963] }
   },
   {
     "state": "Toscana",
@@ -3320,12 +3065,11 @@
     "postalcode": 59100,
     "county": "Po",
     "name": "Ospedale Nuovo Santo Stefano",
-    "street": "Via Suor Niccolina Infermiera",
-    "email": " 2",
+    "street": "Via Suor Niccolina Infermiera 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.880598",
-    "longitude": "11.0969262",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.0969262, 43.880598] }
   },
   {
     "state": "Toscana",
@@ -3333,12 +3077,11 @@
     "postalcode": 51017,
     "county": "Pt",
     "name": "Presidio Ospedaliero Di Pescia",
-    "street": "Via Cesare Battisti",
-    "email": " 2",
+    "street": "Via Cesare Battisti 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.9022764",
-    "longitude": "10.6908076",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.6908076, 43.9022764] }
   },
   {
     "state": "Toscana",
@@ -3346,12 +3089,11 @@
     "postalcode": 51100,
     "county": "Pt",
     "name": "Ospedale San Iacopo",
-    "street": "Via Pertini",
-    "email": " 708",
+    "street": "Via Pertini 708",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.9336213",
-    "longitude": "10.9174238",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.9174238, 43.9336213] }
   },
   {
     "state": "Toscana",
@@ -3359,12 +3101,11 @@
     "postalcode": 53100,
     "county": "Si",
     "name": "Azienda Ospedaliera Senese Le Scotte",
-    "street": "Strada delle Scotte",
-    "email": " 14",
+    "street": "Strada delle Scotte 14",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.3431575",
-    "longitude": "11.3266478",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.3266478, 43.3431575] }
   },
   {
     "state": "Trentino Alto Adige",
@@ -3372,12 +3113,11 @@
     "postalcode": 39100,
     "county": "Bz",
     "name": "Ospedale Centro Sud Bolzano",
-    "street": "Via Lorenz Bohler",
-    "email": " 5",
+    "street": "Via Lorenz Bohler 5",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.5003221",
-    "longitude": "11.3114959",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.308806, 46.4988821] }
   },
   {
     "state": "Trentino Alto Adige",
@@ -3385,12 +3125,11 @@
     "postalcode": 39042,
     "county": "Bz",
     "name": "Ospedale Di Bressanone",
-    "street": "Via Dante",
-    "email": " 51",
+    "street": "Via Dante 51",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.7132955",
-    "longitude": "11.6525666",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.6476482, 46.7228418] }
   },
   {
     "state": "Trentino Alto Adige",
@@ -3398,12 +3137,11 @@
     "postalcode": 39031,
     "county": "Bz",
     "name": "Ospedale Di Brunico",
-    "street": "Via Dell'Ospedale",
-    "email": " 11",
+    "street": "Via Dell'Ospedale 11",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.7963194",
-    "longitude": "11.9355121",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.9355121, 46.7963194] }
   },
   {
     "state": "Trentino Alto Adige",
@@ -3411,12 +3149,11 @@
     "postalcode": 39012,
     "county": "Bz",
     "name": "Ospedale Di Merano",
-    "street": "Via Rossini",
-    "email": " 5",
+    "street": "Via Rossini 5",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.6695547",
-    "longitude": "11.1594185",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.1510139, 46.6776007] }
   },
   {
     "state": "Trentino Alto Adige",
@@ -3424,12 +3161,11 @@
     "postalcode": 38100,
     "county": "Tn",
     "name": "Ospedale Santa Chiara",
-    "street": "Largo Medaglie D'oro",
-    "email": " 9",
+    "street": "Largo Medaglie D'oro 9",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.057797050000005",
-    "longitude": "11.13275943562951",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.1328198, 46.0575777] }
   },
   {
     "state": "Umbria",
@@ -3440,9 +3176,8 @@
     "street": "Via Giontella",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "43.0677554",
-    "longitude": "12.5495816",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.5495816, 43.0677554] }
   },
   {
     "state": "Umbria",
@@ -3453,9 +3188,8 @@
     "street": "Via Massimo Arcamone",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "42.9608309",
-    "longitude": "12.6845659",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.6845659, 42.9608309] }
   },
   {
     "state": "Umbria",
@@ -3463,12 +3197,11 @@
     "postalcode": 6024,
     "county": "Pg",
     "name": "Presidio Ospedaliero Di Gubbio E Gualdo Tadino",
-    "street": "Largo Unità d'Italia",
-    "email": " Località Branca",
+    "street": "Largo Unità d'Italia Località Branca",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "43.2682564",
-    "longitude": "12.688136024437373",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.5772674, 43.3517882] }
   },
   {
     "state": "Umbria",
@@ -3479,9 +3212,8 @@
     "street": "Località Sant'Andrea delle Fratte",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "43.0724206",
-    "longitude": "12.3505467",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.3505467, 43.0724206] }
   },
   {
     "state": "Umbria",
@@ -3492,9 +3224,8 @@
     "street": "Località Ciconia",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "42.7195995",
-    "longitude": "12.130122",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.130122, 42.7195995] }
   },
   {
     "state": "Valle D'aosta",
@@ -3502,12 +3233,11 @@
     "postalcode": 11100,
     "county": "Ao",
     "name": "Ospedale Umbero Parini",
-    "street": "Via Guido Rey",
-    "email": " 1",
+    "street": "Via Guido Rey 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.740116",
-    "longitude": "7.3209315",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [7.3200585, 45.7399303] }
   },
   {
     "state": "Veneto",
@@ -3515,12 +3245,11 @@
     "postalcode": 32100,
     "county": "Bl",
     "name": "Ospedale Civile Di Belluno",
-    "street": "Viale Europa",
-    "email": " 22",
+    "street": "Viale Europa 22",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.1436119",
-    "longitude": "12.212202",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.212202, 46.1436119] }
   },
   {
     "state": "Veneto",
@@ -3528,12 +3257,11 @@
     "postalcode": 32032,
     "county": "Bl",
     "name": "Ospedale Civile Di Feltre",
-    "street": "Via Bagnols Sur Cèzè",
-    "email": " 1",
+    "street": "Via Bagnols Sur Cèzè 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "46.0222204",
-    "longitude": "11.9094294",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.90694941154635, 46.02266805] }
   },
   {
     "state": "Veneto",
@@ -3541,12 +3269,11 @@
     "postalcode": 35031,
     "county": "Pd",
     "name": "Ospedale Abano Terme",
-    "street": "Piazza Cristoforo Colombo",
-    "email": " 1",
+    "street": "Piazza Cristoforo Colombo 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.3483731",
-    "longitude": "11.7867533",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.78671618013447, 45.349273600000004] }
   },
   {
     "state": "Veneto",
@@ -3554,12 +3281,11 @@
     "postalcode": 35012,
     "county": "Pd",
     "name": "Ospedale Pietro Cosma",
-    "street": "Via Pietro Cosma",
-    "email": " 1",
+    "street": "Via Pietro Cosma 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5654601",
-    "longitude": "11.9306396",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.9306396, 45.5654601] }
   },
   {
     "state": "Veneto",
@@ -3567,12 +3293,11 @@
     "postalcode": 32128,
     "county": "Pd",
     "name": "Azienda Ospedaliera Di Padova",
-    "street": "Via Giustiniani",
-    "email": " 2",
+    "street": "Via Giustiniani 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5400126",
-    "longitude": "11.8747128",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.8747128, 45.5400126] }
   },
   {
     "state": "Veneto",
@@ -3580,12 +3305,11 @@
     "postalcode": 45100,
     "county": "Ro",
     "name": "Ospedale Santa Maria Della Misericordia",
-    "street": "Viale Tre Martiri",
-    "email": " 140",
+    "street": "Viale Tre Martiri 140",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.0753758",
-    "longitude": "11.8026006",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.8212805, 45.0753871] }
   },
   {
     "state": "Veneto",
@@ -3596,9 +3320,8 @@
     "street": "Via Guerrina S.P. Km. 28",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.0309442",
-    "longitude": "11.4605212",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.4605212, 45.0309442] }
   },
   {
     "state": "Veneto",
@@ -3606,12 +3329,11 @@
     "postalcode": 31033,
     "county": "Tv",
     "name": "Presidio Ospedaliero Di Castelfranco Veneto",
-    "street": "Via Ospedale",
-    "email": " 18",
+    "street": "Via Ospedale 18",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.6734522",
-    "longitude": "11.9292809",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.9339221, 45.6665902] }
   },
   {
     "state": "Veneto",
@@ -3619,12 +3341,11 @@
     "postalcode": 31015,
     "county": "Tv",
     "name": "Ospedale Civile Di Conegliano",
-    "street": "Via Brigata Bisagno",
-    "email": " 4",
+    "street": "Via Brigata Bisagno 4",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.8814176",
-    "longitude": "12.2905223",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.2905223, 45.8814176] }
   },
   {
     "state": "Veneto",
@@ -3632,12 +3353,11 @@
     "postalcode": 31044,
     "county": "Tv",
     "name": "Presidio Ospedaliero Di Montebelluna",
-    "street": "Via Montegrappa",
-    "email": " 32",
+    "street": "Via Montegrappa 32",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.7759956",
-    "longitude": "12.0450646",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.0450646, 45.7759956] }
   },
   {
     "state": "Veneto",
@@ -3648,9 +3368,8 @@
     "street": "Piazza Ospedale",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.6658505",
-    "longitude": "12.2455414",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.2455414, 45.6658505] }
   },
   {
     "state": "Veneto",
@@ -3658,12 +3377,11 @@
     "postalcode": 31029,
     "county": "Tv",
     "name": "Ospedale Civile Di Divittorio Veneto",
-    "street": "Via Forlanini",
-    "email": "71",
+    "street": "Via Forlanini71",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.9896648",
-    "longitude": "12.2964361",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.2964361, 45.9896648] }
   },
   {
     "state": "Veneto",
@@ -3671,12 +3389,11 @@
     "postalcode": 30015,
     "county": "Ve",
     "name": "Presidio Ospedaliero Di Chioggia",
-    "street": "Strada Madonna Marina",
-    "email": " 500",
+    "street": "Strada Madonna Marina 500",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.2077486",
-    "longitude": "12.2895432",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.2895432, 45.2077486] }
   },
   {
     "state": "Veneto",
@@ -3684,12 +3401,11 @@
     "postalcode": 30031,
     "county": "Ve",
     "name": "Presidio Ospedaliero Di Dolo",
-    "street": "Via Riviera XXIX Aprile",
-    "email": " 2",
+    "street": "Via Riviera XXIX Aprile 2",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.424996",
-    "longitude": "12.076313",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.076313, 45.424996] }
   },
   {
     "state": "Veneto",
@@ -3697,12 +3413,11 @@
     "postalcode": 30121,
     "county": "Ve",
     "name": "Ospedale Dell'angelo",
-    "street": "Via Paccagnella",
-    "email": " 11",
+    "street": "Via Paccagnella 11",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.509392",
-    "longitude": "12.2290424",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.2290424, 45.509392] }
   },
   {
     "state": "Veneto",
@@ -3710,12 +3425,11 @@
     "postalcode": 30033,
     "county": "Ve",
     "name": "Presidio Ospedaliero Di Mirano",
-    "street": "Largo San Giorgio",
-    "email": " 3",
+    "street": "Largo San Giorgio 3",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.550156",
-    "longitude": "12.0720437",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.0720437, 45.550156] }
   },
   {
     "state": "Veneto",
@@ -3723,12 +3437,11 @@
     "postalcode": 30026,
     "county": "Ve",
     "name": "Presidio Ospedaliero Di Portogruaro",
-    "street": "Via Piemonte",
-    "email": " 1",
+    "street": "Via Piemonte 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.7715602",
-    "longitude": "12.8421568",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.8419048, 45.7709907] }
   },
   {
     "state": "Veneto",
@@ -3739,9 +3452,8 @@
     "street": "Castello 6777",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4403034",
-    "longitude": "12.3417059",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [12.3417059, 45.4403034] }
   },
   {
     "state": "Veneto",
@@ -3752,9 +3464,8 @@
     "street": "Viale delle Fosse",
     "email": "",
     "domainIdentifier": "",
-    "latitude": "45.7695008",
-    "longitude": "11.7382573",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.7382573, 45.7695008] }
   },
   {
     "state": "Veneto",
@@ -3762,12 +3473,11 @@
     "postalcode": 36100,
     "county": "Vi",
     "name": "Ospedale San Bortolo",
-    "street": "Via Ferdinando Rodolfi",
-    "email": " 37",
+    "street": "Via Ferdinando Rodolfi 37",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.6017589",
-    "longitude": "11.4970358",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [11.4970358, 45.6017589] }
   },
   {
     "state": "Veneto",
@@ -3775,12 +3485,11 @@
     "postalcode": 37024,
     "county": "Vr",
     "name": "Ospedale Sacro Cuore",
-    "street": "Via Don A. Sempreboni",
-    "email": " 5",
+    "street": "Via Don A. Sempreboni 5",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.5296706",
-    "longitude": "10.9400217",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.9400217, 45.5296706] }
   },
   {
     "state": "Veneto",
@@ -3788,12 +3497,11 @@
     "postalcode": 37126,
     "county": "Vr",
     "name": "Ospedale Borgo Trento",
-    "street": "Piazzale Stefani",
-    "email": " 1",
+    "street": "Piazzale Stefani 1",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4513331",
-    "longitude": "10.9859093",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.984095217796257, 45.4528902] }
   },
   {
     "state": "Veneto",
@@ -3801,11 +3509,10 @@
     "postalcode": 37134,
     "county": "Vr",
     "name": "Policlinico Borgo Roma",
-    "street": "Via delle Menegone",
-    "email": " 10",
+    "street": "Via delle Menegone 10",
+    "email": "",
     "domainIdentifier": "",
-    "latitude": "45.4058921",
-    "longitude": "10.9954432",
-    "country": "IT"
+    "country": "IT",
+    "location": { "type": "Point", "coordinates": [10.9954432, 45.4058921] }
   }
 ]

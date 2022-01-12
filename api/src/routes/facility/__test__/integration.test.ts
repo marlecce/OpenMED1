@@ -4,7 +4,7 @@ import { app } from '../../../app'
 import facilitiesData from './facilities.json'
 import { Facility } from '../../../models/facility'
 
-describe('Facility test suite', function () {
+describe('Facility integration test suite', function () {
   beforeEach(async () => {
     // create and populate facility collection
     await Facility.insertMany(facilitiesData)
@@ -62,17 +62,85 @@ describe('Facility test suite', function () {
     )
   })
 
-  it('should return the nearest facility', async () => {
+  it('should return the nearest facilities to a particular point (lat, long)', async () => {
     // get the cookie
     const cookie = await global.signin()
 
+    // set the params
+    const latitude = 38.1041882
+    const longitude = 13.3627699
+
+    const minDistance = 0
+    const maxDistance = 5000
+    const limit = 5
+
     // get the nearest facility
-    const { body: nearestFacility } = await request(app)
-      .get(`/v1/facilities/findnearest?latitude=41.543924&longitude=12.285448`)
+    const { body: nearestFacilities } = await request(app)
+      .get(
+        `/v1/facilities/findnearest?latitude=${latitude}&longitude=${longitude}&minDistance=${minDistance}&maxDistance=${maxDistance}&limit=${limit}`
+      )
       .set('Cookie', cookie)
       .send()
       .expect(200)
 
-    console.log(nearestFacility)
+    // check data
+    expect(nearestFacilities.length).toStrictEqual(5)
+
+    const nearestFaciity = nearestFacilities[0]
+    const fartherFaciity = nearestFacilities[4]
+
+    expect(nearestFaciity).toBeDefined()
+    expect(nearestFaciity.id).toBeDefined()
+    expect(nearestFaciity.name).toStrictEqual('Ospedale Policlinico')
+    expect(nearestFaciity.street).toStrictEqual('Via Del Vespro 129')
+    expect(nearestFaciity.town).toStrictEqual('Palermo')
+    expect(nearestFaciity.state).toStrictEqual('Sicilia')
+    expect(nearestFaciity.county).toStrictEqual('Pa')
+    expect(nearestFaciity.postalcode).toStrictEqual(90127)
+
+    expect(fartherFaciity).toBeDefined()
+    expect(fartherFaciity.id).toBeDefined()
+    expect(fartherFaciity.name).toStrictEqual('Ospedale Civico')
+    expect(fartherFaciity.street).toStrictEqual('---')
+    expect(fartherFaciity.town).toStrictEqual('Palermo')
+    expect(fartherFaciity.state).toStrictEqual('Sicilia')
+    expect(fartherFaciity.county).toStrictEqual('Pa')
+    expect(fartherFaciity.postalcode).toStrictEqual(90127)
+  })
+
+  it('should return the nearest facility to a particular point (lat, long)', async () => {
+    // get the cookie
+    const cookie = await global.signin()
+
+    // set the params
+    const latitude = 38.1041882
+    const longitude = 13.3627699
+
+    const minDistance = 0
+    const maxDistance = 5000
+    const limit = 1
+
+    // get the nearest facility
+    const { body: nearestFacilities } = await request(app)
+      .get(
+        `/v1/facilities/findnearest?latitude=${latitude}&longitude=${longitude}&minDistance=${minDistance}&maxDistance=${maxDistance}&limit=${limit}`
+      )
+      .set('Cookie', cookie)
+      .send()
+      .expect(200)
+
+    // check data
+    expect(nearestFacilities.length).toStrictEqual(1)
+
+    const nearestFaciity = nearestFacilities[0]
+
+    expect(nearestFaciity).toBeDefined()
+    expect(nearestFaciity.id).toBeDefined()
+    expect(nearestFaciity.name).toStrictEqual('Ospedale Policlinico')
+    expect(nearestFaciity.street).toStrictEqual('Via Del Vespro 129')
+    expect(nearestFaciity.town).toStrictEqual('Palermo')
+    expect(nearestFaciity.state).toStrictEqual('Sicilia')
+    expect(nearestFaciity.county).toStrictEqual('Pa')
+    expect(nearestFaciity.postalcode).toStrictEqual(90127)
   })
 })

@@ -1,4 +1,4 @@
-import { geoServer } from '../geoServer'
+import { geoServer } from './geoServer'
 
 /**
  *
@@ -10,11 +10,11 @@ function trasformFacilityName(rawName: string) {
     .toLowerCase()
     .split(' ')
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ')
+    .join(' ').trim()
 }
 
 /**
- * Transform data provided from CSV to be compliance to the openmed-app
+ * Transform data provided from JSON to be compliance to the client
  * @param {*} rawData
  */
 async function transformData(rawData: any) {
@@ -29,6 +29,7 @@ async function transformData(rawData: any) {
       const street = raw.street
       const email = raw.email
       const domainIdentifier = raw.domainIdentifier
+
       let latitude = raw.latitude
       let longitude = raw.longitude
 
@@ -73,8 +74,10 @@ async function transformData(rawData: any) {
       raw.postalcode = postalcode
       raw.country = country
       raw.domainIdentifier = domainIdentifier
-      raw.latitude = latitude
-      raw.longitude = longitude
+      raw.location = {
+        type: "Point",
+        coordinates: [parseFloat(longitude),  parseFloat(latitude)]
+       }
 
       return raw
     })

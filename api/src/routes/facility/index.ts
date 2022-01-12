@@ -1,15 +1,13 @@
 import express, { Request, Response } from 'express'
-import * as geolib from 'geolib'
 
 import { requireAuth } from '../../common'
-import { Facility } from './../../models/facility'
-import { geoServer } from './geoServer'
+import { findNearest, getAllFacilities, getCoordinatesByAddress, getFacilityById } from '../../services/facility'
 
 // create the express router
 const router = express.Router()
 
 /**
- *
+ * 
  */
 router.get('/v1/facilities/findnearest', requireAuth, async (req: Request, res: Response) => {
   // get the params
@@ -17,15 +15,17 @@ router.get('/v1/facilities/findnearest', requireAuth, async (req: Request, res: 
   if (!queryParams.longitude || !queryParams.latitude)
     throw new Error('The input params are invalid: longitude or latitude unavailable')
 
-  // filter facilities by latitude and logitude
-  const latitude = queryParams.latitude as string
-  const longitude = queryParams.longitude as string
+  // latitude and logitude - required
+  const latitude = parseFloat(queryParams.latitude as string) 
+  const longitude = parseFloat(queryParams.longitude as string)
 
-  // get all facilities
-  const facilities = await getAllFacilities()
+  // ...get the not required parameters
+  const minDistance = queryParams.minDistance ? parseInt(queryParams.minDistance as string, 10) : 0
+  const maxDistance = queryParams.maxDistance ? parseInt(queryParams.maxDistance as string, 10) : 1000
+  const limit  = queryParams.limit ? parseInt(queryParams.limit as string, 10) : 5
 
   // get the nearest facility
-  const nearestFacility = await findNearest(parseFloat(latitude), parseFloat(longitude), facilities)
+  const nearestFacility = await findNearest(latitude, longitude, minDistance, maxDistance, limit)
 
   res.send(nearestFacility)
 })
@@ -61,89 +61,4 @@ router.get('/v1/facilities', requireAuth, async (req: Request, res: Response) =>
   res.send(facilities)
 })
 
-/**
- *
- * @returns
- */
-async function getAllFacilities() {
-  return Facility.find()
-}
-
-/**
- *
- * @returns
- */
-async function getFacilityById(facilityId: string) {
-  // TODO check mongo ID
-  if (true) {
-    return Facility.findById(facilityId)
-  } else {
-    throw Error(`The param value ${facilityId} is not a valid id value`)
-  }
-}
-
-/**
- *
- * @param {*} params
- */
-async function getCoordinatesByAddress(addressToSearch: string) {
-  // check params
-  if (!addressToSearch) {
-    throw Error('The input params are invalid: address unavailable')
-  }
-
-  const results = await geoServer.search({ q: addressToSearch })
-
-  // return an empty object if no results are available
-  if (results.length === 0) return {}
-
-  // for now we get the place with the greatest value in "importance" attribute
-  const firstResult = results[0]
-
-  // return coordinates
-  return {
-    latitude: parseFloat(firstResult.lat),
-    longitude: parseFloat(firstResult.lon),
-    address: firstResult.display_name,
-  }
-}
-
-/**
- * Finds the single one nearest point to a reference coordinate.
- * @param {*} latitude
- * @param {*} longitude
- * @param {*} facilities
- */
-async function findNearest(latitude: number, longitude: number, facilities: any) {
-  if (!longitude || !latitude) {
-    throw Error('The input params are invalid: longitude or latitude unavailable')
-  }
-
-  const data: any = geolib.findNearest({ latitude, longitude }, facilities)
-  return data
-}
-
-/**
- * Sorts an array of coords by distance to a reference coordinate
- * @param {*} latitude
- * @param {*} longitude
- * @param {*} facilities
- */
-function orderByDistance(latitude: number, longitude: number, facilities: any) {
-  return geolib.orderByDistance({ latitude, longitude }, facilities)
-  // return geolib.orderByDistance({ latitude: 51.515, longitude: -0.119722 }, [
-  //   { latitude: 52.516272, longitude: 13.377722 },
-  //   { latitude: 51.518, longitude: 7.45425 },
-  //   { latitude: 51.503333, longitude: -0.119722 },
-  // ])
-}
-
-// webpack
-// global.main = getCoordinatesByAddress
-
-// webpack
-// global.main = getFacilities
-
-// jest
-
-export { getCoordinatesByAddress, orderByDistance, findNearest, router as facilityRouter }
+export { router as facilityRouter }

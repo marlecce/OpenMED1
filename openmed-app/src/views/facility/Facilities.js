@@ -14,11 +14,7 @@ import {
 } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
 
-import {
-  getFacilities,
-  getFacilityByCoordinates,
-  getCoordinatesByAddress,
-} from '../../api/facility'
+import { getFacilities, getNearestFacilities, getCoordinatesByAddress } from '../../api/facility'
 
 // import { apiServer } from '../../api/config'
 
@@ -50,13 +46,12 @@ const Facilities = () => {
    *
    */
   async function getNearestFacilityByAddress() {
-    // TODO --> manage with a single call, something like "getFacilityByAddress(address)"
     const coordinates = await getCoordinatesByAddress(address)
     console.log(coordinates)
     setAddress(coordinates.address)
 
-    const facility = await getFacilityByCoordinates(coordinates.latitude, coordinates.longitude)
-    setFacilities([facility])
+    const facilities = await getNearestFacilities(coordinates.latitude, coordinates.longitude)
+    setFacilities([facilities])
   }
 
   /**

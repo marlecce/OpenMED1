@@ -2,7 +2,7 @@ import neatCsv from 'neat-csv'
 import fs from 'fs-extra'
 import path from 'path'
 
-import { geoServer } from './../geoServer'
+import { geoServer } from './geoServer'
 
 /**
  *

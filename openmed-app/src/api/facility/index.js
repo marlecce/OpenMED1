@@ -53,9 +53,9 @@ async function getCoordinatesByAddress(address) {
  * @param {*} longitude
  * @returns
  */
-async function getFacilityByCoordinates(latitude, longitude) {
+async function getNearestFacilities(latitude, longitude) {
   return apiServer
-    .get(`/v1/facilities?latitude=${latitude}&longitude=${longitude}`)
+    .get(`/v1/facilities/findnearest?latitude=${latitude}&longitude=${longitude}`)
     .then((res) => {
       return res.data
     })
@@ -64,4 +64,4 @@ async function getFacilityByCoordinates(latitude, longitude) {
     })
 }
 
-export { getFacilities, getFacilityByFacilityId, getFacilityByCoordinates, getCoordinatesByAddress }
+export { getFacilities, getFacilityByFacilityId, getNearestFacilities, getCoordinatesByAddress }

@@ -5,7 +5,7 @@ import fs from 'fs-extra'
 
 import { Facility } from './models/facility'
 import { User } from './models/user'
-import { transformData } from './routes/facility/utils/etl-json'
+import { transformData } from './services/facility/utils/etl-json'
 import facilitiesData from './routes/facility/__test__/facilities.json'
 
 /**
@@ -32,8 +32,15 @@ const populateFacilities = async function () {
 
   const transformedData = await transformData(facilitiesData)
 
+  // write the facilities json data
+  fs.writeJson('./facilities.json', transformedData, err => {
+    if (err) return console.error(err)
+    console.log('success!')
+  })
+
   console.log(`Inserting facilities....`)
   await Facility.insertMany(transformedData)
+
 
   console.log(`Facilities inserted!`)
 }

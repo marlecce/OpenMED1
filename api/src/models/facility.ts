@@ -16,8 +16,6 @@ interface FacilityAttrs {
 // that a Facility Model has
 interface FacilityModel extends mongoose.Model<FacilityDoc> {
   build(attrs: FacilityAttrs): FacilityDoc
-  // getAllFacilities(): Promise<FacilityDoc[] | null>
-  // getAllFacilitiesCoordinates(): Promise<FacilityDoc[] | null>
 }
 
 // An interface that describes the properties
@@ -31,8 +29,7 @@ interface FacilityDoc extends mongoose.Document {
   county: string
   postalcode: number
   domain_identifier: string
-  latitude: number
-  longitude: number
+  location: object
 }
 
 const FacilitySchema = new mongoose.Schema(
@@ -69,14 +66,11 @@ const FacilitySchema = new mongoose.Schema(
       type: String,
       required: false,
     },
-    latitude: {
-      type: Number,
-      required: false,
-    },
-    longitude: {
-      type: Number,
-      required: false,
-    },
+    location: {
+      type: { type: String },
+      coordinates: [Number],
+      required: false
+     }
   },
   {
     toJSON: {
@@ -88,18 +82,8 @@ const FacilitySchema = new mongoose.Schema(
     },
   }
 )
-/**
- * Get all the available facilities in the Facility collection
- * @returns
- */
-// FacilitySchema.statics.getAllFacilities = function () {
-//   return Facility.find()
-// }
 
-// FacilitySchema.statics.getAllFacilitiesCoordinates = function () {
-//   return Facility.find().select('latitude longitude')
-//   // console.log(documents)
-// }
+FacilitySchema.index({ location: "2dsphere" })
 
 FacilitySchema.statics.build = (attrs: FacilityAttrs) => {
   return new Facility(attrs)

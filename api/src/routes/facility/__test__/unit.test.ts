@@ -1,9 +1,9 @@
 import facilitiesData from './facilities.json'
 import { Facility } from '../../../models/facility'
 
-import { getCoordinatesByAddress, findNearest, orderByDistance } from '../index'
+import { getCoordinatesByAddress, findNearest } from '../../../services/facility'
 
-describe('Facility test suite', function () {
+describe('Facility unit test suite', function () {
   beforeEach(async () => {
     // create and populate facility collection
     await Facility.insertMany(facilitiesData)
@@ -28,53 +28,41 @@ describe('Facility test suite', function () {
     // TODO test more addresses --> via fabbri 43 Bologna / via fabbri 43 Bologna 40138
   })
 
-  it('should get the nearest facilities', async () => {
+  it.only('should get the nearest facilities starting from latitude and longitude', async () => {
     // get the nearest facilities
-    const latitude = 37.7196529
-    const longitude = 15.1579192
+    const latitude = 38.1041882
+    const longitude = 13.3627699
 
-    const allFacilities = await Facility.find()
-    const nearestFacilities = await findNearest(latitude, longitude, allFacilities)
+    const minDistance = 0
+    const maxDistance = 5000
+    const limit = 5
 
-    // check data
-    expect(nearestFacilities).toBeDefined()
-    expect(nearestFacilities.id).toBeDefined()
-    expect(nearestFacilities.name).toStrictEqual('Ospedale Civile')
-    expect(nearestFacilities.street).toStrictEqual('Tre Conche')
-    expect(nearestFacilities.town).toStrictEqual('Avezzano')
-    expect(nearestFacilities.state).toStrictEqual('Abruzzo')
-    expect(nearestFacilities.county).toStrictEqual('Aq')
-    expect(nearestFacilities.postalcode).toStrictEqual(67051)
-  })
-
-  it.only('should order the facilities from the nearest', async () => {
-    const latitude = 51.503333
-    const longitude = -0.119722
-    const allFacilities = await Facility.find()
-    const facilities = orderByDistance(latitude, longitude, allFacilities)
+   const facilities = await findNearest(latitude, longitude, minDistance, maxDistance, limit)
 
     // check data
+    expect(Array.isArray(facilities)).toBeTruthy()
+    expect(facilities.length).toStrictEqual(limit)
 
-    console.log(facilities)
-    // expect(Array.isArray(facilities)).toBeTruthy()
+    const nearestFaciity = facilities[0]
+    const fartherFaciity = facilities[4]
 
-    // const firstFacility = facilities[0]
-    // expect(firstFacility.id).toStrictEqual(10)
-    // expect(firstFacility.name).toStrictEqual('Alcon Laboratories, Inc.')
-    // expect(firstFacility.address.street).toStrictEqual('7 Di Loreto Park')
-    // expect(firstFacility.address.town).toStrictEqual('Saint Louis')
-    // expect(firstFacility.address.state).toStrictEqual('Missouri')
-    // expect(firstFacility.address.county).toStrictEqual('MO')
-    // expect(firstFacility.address.postalCode).toStrictEqual('63143')
+    // check data
+    expect(nearestFaciity).toBeDefined()
+    expect(nearestFaciity.id).toBeDefined()
+    expect(nearestFaciity.name).toStrictEqual('Ospedale Policlinico')
+    expect(nearestFaciity.street).toStrictEqual('Via Del Vespro 129')
+    expect(nearestFaciity.town).toStrictEqual('Palermo')
+    expect(nearestFaciity.state).toStrictEqual('Sicilia')
+    expect(nearestFaciity.county).toStrictEqual('Pa')
+    expect(nearestFaciity.postalcode).toStrictEqual(90127)
 
-    // expect(facilities[1].id).toStrictEqual(8)
-    // expect(facilities[2].id).toStrictEqual(6)
-    // expect(facilities[3].id).toStrictEqual(7)
-    // expect(facilities[4].id).toStrictEqual(9)
-    // expect(facilities[5].id).toStrictEqual(1)
-    // expect(facilities[6].id).toStrictEqual(5)
-    // expect(facilities[7].id).toStrictEqual(2)
-    // expect(facilities[8].id).toStrictEqual(3)
-    // expect(facilities[9].id).toStrictEqual(4)
+    expect(fartherFaciity).toBeDefined()
+    expect(fartherFaciity.id).toBeDefined()
+    expect(fartherFaciity.name).toStrictEqual('Ospedale Civico')
+    expect(fartherFaciity.street).toStrictEqual('---')
+    expect(fartherFaciity.town).toStrictEqual('Palermo')
+    expect(fartherFaciity.state).toStrictEqual('Sicilia')
+    expect(fartherFaciity.county).toStrictEqual('Pa')
+    expect(fartherFaciity.postalcode).toStrictEqual(90127)
   })
 })
