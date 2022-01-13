@@ -1,27 +1,42 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
+import { CSpinner } from '@coreui/react'
 import { TheContent, TheSidebar, TheFooter, TheHeader } from './index'
-import { useKeycloak } from '@react-keycloak/web'
+
 import { apiServer } from '../api/config'
+import { Redirect } from 'react-router-dom'
 
 const TheLayout = () => {
-  const { keycloak } = useKeycloak()
+  const [logged, isLogged] = useState(null)
 
   useEffect(() => {
-    apiServer.interceptors.request.use(
-      function (config) {
-        if (keycloak.tokenParsed) {
-          config.headers.Authorization = `Bearer ${keycloak.token}`
-        }
-        return config
-      },
+    function fetchCurrentUser() {
+      apiServer
+        .get('/v1/users/currentuser')
+        .then((response) => {
+          if (!response.data.currentUser) {
+            isLogged(false)
+          } else {
+            isLogged(true)
+          }
+        })
+        .catch((error) => {
+          console.log(error)
+        })
+    }
 
-      function (error) {
-        return Promise.reject(error)
-      }
-    )
-  }, [keycloak])
+    fetchCurrentUser()
+  }, [])
 
-  return (
+  // eslint-disable-next-line no-lone-blocks
+  {
+    /* <Suspense fallback={<CSpinner color="primary" />}> */
+  }
+
+  return logged === null ? (
+    <CSpinner color="primary" />
+  ) : !logged ? (
+    <Redirect to="/login" />
+  ) : (
     <div>
       <div className="c-app c-default-layout">
         <TheSidebar />

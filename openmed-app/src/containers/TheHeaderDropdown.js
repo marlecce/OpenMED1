@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
   CBadge,
   CDropdown,
@@ -8,16 +8,28 @@ import {
   CImg,
 } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
-import { keycloak } from '../api/config'
+import { Redirect } from 'react-router-dom'
 
-const logout = () => {
-  keycloak.logout({
-    redirectUri: `${process.env.REACT_APP_URL}`,
-  })
-}
+import { apiServer } from '../api/config'
 
 const TheHeaderDropdown = () => {
-  return (
+  const [loggedOut, isLoggedOut] = useState(false)
+
+  async function logout() {
+    await apiServer
+      .post(`/v1/users/signout`)
+      .then(function (response) {
+        isLoggedOut(true)
+        return <Redirect to="/" />
+      })
+      .catch(function (error) {
+        console.log(error)
+      })
+  }
+
+  return loggedOut ? (
+    <Redirect to="/login" />
+  ) : (
     <CDropdown inNav className="c-header-nav-items mx-2" direction="down">
       <CDropdownToggle className="c-header-nav-link" caret={false}>
         <div className="c-avatar">

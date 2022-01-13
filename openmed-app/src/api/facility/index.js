@@ -5,7 +5,14 @@ import { apiServer } from '../../api/config'
  * @returns
  */
 async function getFacilities() {
-  return await apiServer.get(`/v1/facilities`).then((res) => Promise.resolve(res.data.payload))
+  return apiServer
+    .get(`/v1/facilities`)
+    .then((res) => {
+      return res.data
+    })
+    .catch((err) => {
+      throw new Error(err.response.data.errors)
+    })
 }
 
 /**
@@ -14,21 +21,14 @@ async function getFacilities() {
  * @returns
  */
 async function getFacilityByFacilityId(facilityId) {
-  return await apiServer
-    .get(`/v1/facilities?id=${facilityId}`)
-    .then((res) => Promise.resolve(res.data.payload))
-}
-
-/**
- *
- * @param {*} latitude
- * @param {*} longitude
- * @returns
- */
-async function getFacilityByCoordinates(latitude, longitude) {
-  return await apiServer
-    .get(`/v1/facilities?latitude=${latitude}&longitude=${longitude}`)
-    .then((res) => Promise.resolve(res.data.payload))
+  return apiServer
+    .get(`/v1/facilities/${facilityId}`)
+    .then((res) => {
+      return res.data
+    })
+    .catch((err) => {
+      throw new Error(err.response.data.errors)
+    })
 }
 
 /**
@@ -37,10 +37,31 @@ async function getFacilityByCoordinates(latitude, longitude) {
  * @returns
  */
 async function getCoordinatesByAddress(address) {
-  console.log(encodeURIComponent(address))
-  return await apiServer
-    .get('/v1/facilities/coordinatesByAddress?address=' + encodeURIComponent(address))
-    .then((res) => Promise.resolve(res.data.payload))
+  return apiServer
+    .get(`/v1/facilities/coordinatesByAddress?address=${encodeURIComponent(address)}`)
+    .then((res) => {
+      return res.data
+    })
+    .catch((err) => {
+      throw new Error(err.response.data.errors)
+    })
 }
 
-export { getFacilities, getFacilityByFacilityId, getFacilityByCoordinates, getCoordinatesByAddress }
+/**
+ *
+ * @param {*} latitude
+ * @param {*} longitude
+ * @returns
+ */
+async function getNearestFacilities(latitude, longitude) {
+  return apiServer
+    .get(`/v1/facilities/findnearest?latitude=${latitude}&longitude=${longitude}`)
+    .then((res) => {
+      return res.data
+    })
+    .catch((err) => {
+      throw new Error(err.response.data.errors)
+    })
+}
+
+export { getFacilities, getFacilityByFacilityId, getNearestFacilities, getCoordinatesByAddress }

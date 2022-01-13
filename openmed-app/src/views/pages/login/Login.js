@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Redirect } from 'react-router-dom'
 import {
   CButton,
   CCard,
@@ -14,18 +14,34 @@ import {
   CInputGroupText,
   CRow,
 } from '@coreui/react'
-import { keycloak } from '../../../api/config'
+
 import CIcon from '@coreui/icons-react'
 
+import { apiServer } from '../../../api/config'
+
 const Login = () => {
-  const [username, setUsername] = useState('')
+  const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [logged, isLogged] = useState(false)
 
   function submitLogin() {
-    keycloak.login()
+    apiServer
+      .post(`/v1/users/signin`, {
+        email: email,
+        password: password,
+      })
+      .then((response) => {
+        console.log(response)
+        isLogged(true)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
   }
 
-  return (
+  return logged ? (
+    <Redirect to="/" />
+  ) : (
     <div className="c-app c-default-layout flex-row align-items-center">
       <CContainer>
         <CRow className="justify-content-center">
@@ -44,10 +60,10 @@ const Login = () => {
                       </CInputGroupPrepend>
                       <CInput
                         type="text"
-                        placeholder="Username"
-                        autoComplete="username"
-                        value={username}
-                        onChange={(event) => setUsername(event.target.value)}
+                        placeholder="Email"
+                        autoComplete="email"
+                        value={email}
+                        onChange={(event) => setEmail(event.target.value)}
                       />
                     </CInputGroup>
                     <CInputGroup className="mb-4">
